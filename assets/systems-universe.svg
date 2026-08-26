@@ -1,37 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
 <defs>
- <radialGradient id="space"><stop stop-color="#102438"/><stop offset=".55" stop-color="#07111d"/><stop offset="1" stop-color="#03060b"/></radialGradient>
- <radialGradient id="core"><stop stop-color="#dffcff"/><stop offset=".18" stop-color="#21f6dc"/><stop offset=".48" stop-color="#087b8c"/><stop offset="1" stop-color="#06101c"/></radialGradient>
- <linearGradient id="cyan" x1="0" x2="1"><stop stop-color="#00f5d4"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
- <linearGradient id="violet" x1="0" x2="1"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#d946ef"/></linearGradient>
- <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#16405b" stroke-width=".45"/></pattern>
- <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
- <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+ <radialGradient id="bg"><stop stop-color="#14243b"/><stop offset=".55" stop-color="#07101d"/><stop offset="1" stop-color="#020409"/></radialGradient>
+ <radialGradient id="core"><stop stop-color="#fff"/><stop offset=".12" stop-color="#8af3ff"/><stop offset=".38" stop-color="#13bde4"/><stop offset=".7" stop-color="#095070"/><stop offset="1" stop-color="#040a12"/></radialGradient>
+ <linearGradient id="rb" x1="0" x2="1"><stop stop-color="#1dd8ff"/><stop offset=".5" stop-color="#eefaff"/><stop offset="1" stop-color="#ff3549"/></linearGradient>
+ <linearGradient id="gold" x1="0" x2="1"><stop stop-color="#8f5c17"/><stop offset=".5" stop-color="#ffd779"/><stop offset="1" stop-color="#8f5c17"/></linearGradient>
+ <pattern id="hex" width="52" height="45" patternUnits="userSpaceOnUse"><path d="M13 1h26l13 21.5L39 44H13L0 22.5Z" fill="none" stroke="#23415f" stroke-width=".45"/></pattern>
+ <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
-<rect width="1200" height="720" rx="24" fill="url(#space)"/><rect width="1200" height="720" rx="24" fill="url(#grid)" opacity=".5"/>
-<ellipse cx="600" cy="390" rx="365" ry="255" fill="none" stroke="#17435d" stroke-width="1.2" stroke-dasharray="5 10"/>
-<ellipse cx="600" cy="390" rx="245" ry="165" fill="none" stroke="#17435d" stroke-width="1"/>
-<circle cx="600" cy="390" r="150" fill="#00f5d4" opacity=".035" filter="url(#soft)"/>
-<path d="M200 180C330 215 382 300 500 354M1000 180C870 215 818 300 700 354M200 592C340 560 405 492 505 435M1000 592C860 560 795 492 695 435" fill="none" stroke="url(#cyan)" stroke-width="2" opacity=".8"/>
-<g fill="#00f5d4" filter="url(#glow)"><circle cx="360" cy="270" r="3"/><circle cx="836" cy="272" r="3"/><circle cx="390" cy="535" r="3"/><circle cx="810" cy="530" r="3"/></g>
-<g font-family="monospace">
- <text x="42" y="42" fill="#5eead4" font-size="12" letter-spacing="3">HARSHEL / SYSTEMS_UNIVERSE</text>
- <text x="912" y="42" fill="#64748b" font-size="11">SIGNAL: ACTIVE</text><circle cx="1087" cy="38" r="4" fill="#00f5d4" filter="url(#glow)"/>
-</g>
-<g transform="translate(600 390)">
- <circle r="112" fill="none" stroke="#0e7490" stroke-width="2"/><circle r="88" fill="none" stroke="#22d3ee" stroke-width="1.2" stroke-dasharray="7 8"/>
- <circle r="58" fill="url(#core)" filter="url(#glow)"/>
- <path d="M-22 -8L0-30 22-8 0 14Z" fill="none" stroke="#03131b" stroke-width="4"/><circle cy="32" r="5" fill="#03131b"/>
- <text x="0" y="142" text-anchor="middle" fill="#f8fafc" font-family="Arial" font-weight="700" font-size="20">CONTROL PLANE</text>
- <text x="0" y="164" text-anchor="middle" fill="#67e8f9" font-family="monospace" font-size="10">STATE · TOOLS · POLICY · EVALS</text>
+<rect width="1200" height="720" rx="24" fill="url(#bg)"/><rect width="1200" height="720" rx="24" fill="url(#hex)" opacity=".3"/>
+<path d="M0 2H1200" stroke="url(#rb)" stroke-width="4"/><path d="M100 66H1100" stroke="url(#gold)" opacity=".6"/>
+<text x="48" y="44" fill="#f6c453" font-family="monospace" font-size="12" letter-spacing="3">SYSTEMS ASSEMBLED / ONE MISSION</text><text x="963" y="44" fill="#8ba1b9" font-family="monospace" font-size="11">STATUS: READY</text>
+<g opacity=".75"><path d="M255 220L512 330M945 220L688 330M255 548L512 430M945 548L688 430" stroke="url(#rb)" stroke-width="3"/><circle cx="380" cy="274" r="4" fill="#fff" filter="url(#glow)"/><circle cx="820" cy="274" r="4" fill="#fff" filter="url(#glow)"/><circle cx="380" cy="490" r="4" fill="#fff" filter="url(#glow)"/><circle cx="820" cy="490" r="4" fill="#fff" filter="url(#glow)"/></g>
+<g transform="translate(600 380)">
+ <circle r="154" fill="none" stroke="#223e58" stroke-width="2"/><circle r="126" fill="none" stroke="#f6c453" opacity=".6" stroke-width="1" stroke-dasharray="3 8"/>
+ <circle r="96" fill="none" stroke="#2bdcff" stroke-width="3"/><circle r="75" fill="none" stroke="#ff3549" stroke-width="2" stroke-dasharray="10 8"/>
+ <circle r="54" fill="url(#core)" filter="url(#glow)"/><circle r="32" fill="none" stroke="#e8fcff" stroke-width="5"/><path d="M0-23 20 13H-20Z" fill="none" stroke="#07101d" stroke-width="5"/>
+ <text y="132" text-anchor="middle" fill="#fff" font-family="Arial" font-size="20" font-weight="800">AI CONTROL CORE</text>
+ <text y="153" text-anchor="middle" fill="#7dd3fc" font-family="monospace" font-size="10">TOOLS · POLICY · EVALS · RECOVERY</text>
 </g>
 <g font-family="Arial">
- <g transform="translate(42 92)"><rect width="315" height="150" rx="16" fill="#091520" stroke="#155e75"/><rect width="6" height="150" rx="3" fill="#00f5d4"/><text x="28" y="36" fill="#5eead4" font-family="monospace" font-size="11">01 / FOUNDER MODE</text><text x="28" y="72" fill="#f8fafc" font-weight="700" font-size="25">OGym</text><text x="28" y="98" fill="#94a3b8" font-size="13">product → customers → production</text><text x="28" y="130" fill="#fff" font-weight="700" font-size="16">2 B2B · 50+ MEMBERS · 200+ DL</text></g>
- <g transform="translate(843 92)"><rect width="315" height="150" rx="16" fill="#091520" stroke="#0369a1"/><rect x="309" width="6" height="150" rx="3" fill="#38bdf8"/><text x="28" y="36" fill="#7dd3fc" font-family="monospace" font-size="11">02 / RECOVERY INTELLIGENCE</text><text x="28" y="72" fill="#f8fafc" font-weight="700" font-size="25">ReserveGuard</text><text x="28" y="98" fill="#94a3b8" font-size="13">agents coordinate a failing operation</text><text x="28" y="130" fill="#fff" font-weight="700" font-size="18">13% → 86% ON TRACK</text></g>
- <g transform="translate(42 538)"><rect width="315" height="140" rx="16" fill="#091520" stroke="#4f46e5"/><rect width="6" height="140" rx="3" fill="#818cf8"/><text x="28" y="34" fill="#a5b4fc" font-family="monospace" font-size="11">03 / AGENT OBSERVABILITY</text><text x="28" y="70" fill="#f8fafc" font-weight="700" font-size="25">Meridian</text><text x="28" y="96" fill="#94a3b8" font-size="13">seven steps · every action traceable</text><text x="28" y="123" fill="#fff" font-weight="700" font-size="15">EXECUTION → EVIDENCE</text></g>
- <g transform="translate(843 538)"><rect width="315" height="140" rx="16" fill="#091520" stroke="#a21caf"/><rect x="309" width="6" height="140" rx="3" fill="#d946ef"/><text x="28" y="34" fill="#f0abfc" font-family="monospace" font-size="11">04 / OUTCOME ECONOMICS</text><text x="28" y="70" fill="#f8fafc" font-weight="700" font-size="25">Agent Economics</text><text x="28" y="96" fill="#94a3b8" font-size="13">cloud + model spend → business result</text><text x="28" y="123" fill="#fff" font-weight="700" font-size="18">$0.72 / SUCCESS</text></g>
-</g>
-<g font-family="monospace" font-size="10" fill="#64748b">
- <text x="480" y="198">TOOLS</text><text x="680" y="198">APPROVAL</text><text x="448" y="590">TELEMETRY</text><text x="690" y="590">ATTRIBUTION</text>
+ <g transform="translate(42 100)"><path d="M0 15 15 0H310L330 20V145L315 160H0Z" fill="#0a1522" stroke="#1dd8ff"/><path d="M0 15 15 0H130L110 6H18L6 18V160H0Z" fill="#1dd8ff"/><text x="25" y="35" fill="#7dd3fc" font-family="monospace" font-size="11">FOUNDER SYSTEM</text><text x="25" y="75" fill="#fff" font-size="28" font-weight="800">OGym</text><text x="25" y="103" fill="#9fb1c5" font-size="14">Built → shipped → adopted</text><text x="25" y="137" fill="#f6c453" font-size="17" font-weight="700">2 B2B · 50+ MEMBERS</text></g>
+ <g transform="translate(828 100)"><path d="M20 0H315L330 15V160H15L0 145V20Z" fill="#0a1522" stroke="#ff3549"/><path d="M330 15 315 0H205L225 6H312L324 18V160H330Z" fill="#ff3549"/><text x="25" y="35" fill="#ff7b86" font-family="monospace" font-size="11">RECOVERY SYSTEM</text><text x="25" y="75" fill="#fff" font-size="28" font-weight="800">ReserveGuard</text><text x="25" y="103" fill="#9fb1c5" font-size="14">Agents coordinate operations</text><text x="25" y="137" fill="#f6c453" font-size="17" font-weight="700">13% → 86% ON TRACK</text></g>
+ <g transform="translate(42 530)"><path d="M0 0H315L330 15V145L315 160H15L0 145Z" fill="#0a1522" stroke="#6478ff"/><text x="25" y="35" fill="#aab4ff" font-family="monospace" font-size="11">OBSERVABILITY SYSTEM</text><text x="25" y="75" fill="#fff" font-size="28" font-weight="800">Meridian</text><text x="25" y="103" fill="#9fb1c5" font-size="14">Every agent action traceable</text><text x="25" y="137" fill="#f6c453" font-size="17" font-weight="700">EXECUTION → EVIDENCE</text></g>
+ <g transform="translate(828 530)"><path d="M15 0H330V145L315 160H15L0 145V15Z" fill="#0a1522" stroke="#d946ef"/><text x="25" y="35" fill="#f0abfc" font-family="monospace" font-size="11">ECONOMICS SYSTEM</text><text x="25" y="75" fill="#fff" font-size="28" font-weight="800">Agent Economics</text><text x="25" y="103" fill="#9fb1c5" font-size="14">Cost connected to outcomes</text><text x="25" y="137" fill="#f6c453" font-size="17" font-weight="700">$0.72 / SUCCESS</text></g>
 </g>
 </svg>
