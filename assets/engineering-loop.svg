@@ -1,0 +1,24 @@
+<svg width="1200" height="255" viewBox="0 0 1200 255" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="255"><stop stop-color="#090B14"/><stop offset="1" stop-color="#0D1525"/></linearGradient>
+ <linearGradient id="path" x1="92" y1="0" x2="1108" y2="0"><stop stop-color="#8B5CF6"/><stop offset=".5" stop-color="#22D3EE"/><stop offset="1" stop-color="#34D399"/></linearGradient>
+ <style>
+  .dash { stroke-dasharray:8 12; animation:move 2s linear infinite }
+  .n1{animation:p 3s ease-in-out infinite}.n2{animation:p 3s .45s ease-in-out infinite}.n3{animation:p 3s .9s ease-in-out infinite}.n4{animation:p 3s 1.35s ease-in-out infinite}.n5{animation:p 3s 1.8s ease-in-out infinite}
+  @keyframes move{to{stroke-dashoffset:-40}} @keyframes p{0%,100%{opacity:.5}50%{opacity:1}}
+ </style>
+</defs>
+<rect width="1200" height="255" rx="22" fill="url(#bg)"/>
+<text x="48" y="49" fill="#94A3B8" font-family="Arial" font-size="12" font-weight="700" letter-spacing="1.7">MY ENGINEERING LOOP</text>
+<path d="M124 137H1076" stroke="#334155" stroke-width="3"/><path class="dash" d="M124 137H1076" stroke="url(#path)" stroke-width="3"/>
+<g class="n1"><circle cx="124" cy="137" r="31" fill="#8B5CF6" fill-opacity=".16" stroke="#8B5CF6"/><text x="124" y="142" text-anchor="middle" fill="#DDD6FE" font-family="Arial" font-size="14" font-weight="700">01</text></g>
+<g class="n2"><circle cx="362" cy="137" r="31" fill="#6366F1" fill-opacity=".15" stroke="#818CF8"/><text x="362" y="142" text-anchor="middle" fill="#C7D2FE" font-family="Arial" font-size="14" font-weight="700">02</text></g>
+<g class="n3"><circle cx="600" cy="137" r="31" fill="#22D3EE" fill-opacity=".13" stroke="#22D3EE"/><text x="600" y="142" text-anchor="middle" fill="#A5F3FC" font-family="Arial" font-size="14" font-weight="700">03</text></g>
+<g class="n4"><circle cx="838" cy="137" r="31" fill="#14B8A6" fill-opacity=".13" stroke="#2DD4BF"/><text x="838" y="142" text-anchor="middle" fill="#99F6E4" font-family="Arial" font-size="14" font-weight="700">04</text></g>
+<g class="n5"><circle cx="1076" cy="137" r="31" fill="#34D399" fill-opacity=".13" stroke="#34D399"/><text x="1076" y="142" text-anchor="middle" fill="#A7F3D0" font-family="Arial" font-size="14" font-weight="700">05</text></g>
+<text x="124" y="199" text-anchor="middle" fill="#F1F5F9" font-family="Arial" font-size="14" font-weight="700">UNDERSTAND</text><text x="124" y="220" text-anchor="middle" fill="#64748B" font-family="Arial" font-size="12">workflow + failure</text>
+<text x="362" y="199" text-anchor="middle" fill="#F1F5F9" font-family="Arial" font-size="14" font-weight="700">MODEL</text><text x="362" y="220" text-anchor="middle" fill="#64748B" font-family="Arial" font-size="12">state + boundaries</text>
+<text x="600" y="199" text-anchor="middle" fill="#F1F5F9" font-family="Arial" font-size="14" font-weight="700">BUILD</text><text x="600" y="220" text-anchor="middle" fill="#64748B" font-family="Arial" font-size="12">product + agents</text>
+<text x="838" y="199" text-anchor="middle" fill="#F1F5F9" font-family="Arial" font-size="14" font-weight="700">CONTROL</text><text x="838" y="220" text-anchor="middle" fill="#64748B" font-family="Arial" font-size="12">guardrails + approval</text>
+<text x="1076" y="199" text-anchor="middle" fill="#F1F5F9" font-family="Arial" font-size="14" font-weight="700">MEASURE</text><text x="1076" y="220" text-anchor="middle" fill="#64748B" font-family="Arial" font-size="12">outcome + iteration</text>
+</svg>
