@@ -1,31 +1,23 @@
-<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460">
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="430"><stop stop-color="#071018"/><stop offset=".58" stop-color="#0B1220"/><stop offset="1" stop-color="#11101A"/></linearGradient>
- <linearGradient id="accent" x1="54" y1="0" x2="1146" y2="0"><stop stop-color="#2DD4BF"/><stop offset=".5" stop-color="#38BDF8"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
- <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" fill="none" stroke="#94A3B8" stroke-opacity=".025"/></pattern>
- <style>.dot{animation:p 2.4s ease-in-out infinite}.d2{animation:p 2.4s .6s ease-in-out infinite}.d3{animation:p 2.4s 1.2s ease-in-out infinite}.d4{animation:p 2.4s 1.8s ease-in-out infinite}@keyframes p{50%{opacity:.3}}</style>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#05080d"/><stop offset="1" stop-color="#0b1320"/></linearGradient>
+ <linearGradient id="line" x1="0" x2="1"><stop stop-color="#00f5d4"/><stop offset=".55" stop-color="#38bdf8"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#173044" stroke-width=".5"/></pattern>
+ <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
-<rect width="1200" height="430" rx="22" fill="url(#bg)"/><rect width="1200" height="430" rx="22" fill="url(#grid)"/>
-<rect x="1" y="1" width="1198" height="428" rx="21" stroke="white" stroke-opacity=".08"/>
-<text x="58" y="54" fill="#5EEAD4" font-family="monospace" font-size="12" font-weight="700" letter-spacing="1.8">HARSHEL SRIVATSAVA // BUILDER JOURNEY</text>
-<text x="58" y="123" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="45" font-weight="800">I didn't start with agents.</text>
-<text x="58" y="173" fill="#CBD5E1" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="600">I started with gym owners, real users, and a product</text>
-<text x="58" y="208" fill="#CBD5E1" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="600">that had to work when nobody was watching.</text>
-<rect x="58" y="237" width="652" height="3" rx="1.5" fill="url(#accent)"/>
-<text x="58" y="281" fill="#94A3B8" font-family="Arial,Helvetica,sans-serif" font-size="17">That experience shaped how I build AI systems today:</text>
-<text x="58" y="314" fill="#E2E8F0" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600">complete workflows · controlled actions · visible failure · measurable outcomes</text>
-<g transform="translate(58 352)">
- <rect width="164" height="31" rx="15.5" fill="#2DD4BF" fill-opacity=".1" stroke="#2DD4BF" stroke-opacity=".3"/><text x="18" y="20" fill="#99F6E4" font-family="monospace" font-size="11">2 PAYING GYMS</text>
- <rect x="178" width="164" height="31" rx="15.5" fill="#38BDF8" fill-opacity=".1" stroke="#38BDF8" stroke-opacity=".3"/><text x="196" y="20" fill="#BAE6FD" font-family="monospace" font-size="11">50+ ACTIVE USERS</text>
- <rect x="356" width="164" height="31" rx="15.5" fill="#A78BFA" fill-opacity=".1" stroke="#A78BFA" stroke-opacity=".3"/><text x="374" y="20" fill="#DDD6FE" font-family="monospace" font-size="11">200+ DOWNLOADS</text>
-</g>
-<g transform="translate(790 77)">
- <rect width="348" height="283" rx="16" fill="#050A10" stroke="white" stroke-opacity=".11"/>
- <text x="24" y="35" fill="#64748B" font-family="monospace" font-size="11" letter-spacing="1.2">WHAT CHANGED OVER TIME</text>
- <path d="M45 70V242" stroke="url(#accent)" stroke-width="2"/>
- <circle class="dot" cx="45" cy="78" r="7" fill="#2DD4BF"/><text x="68" y="75" fill="#F1F5F9" font-family="Arial" font-size="15" font-weight="700">Built OGym</text><text x="68" y="95" fill="#64748B" font-family="Arial" font-size="12">idea → web → App Store</text>
- <circle class="d2" cx="45" cy="132" r="7" fill="#38BDF8"/><text x="68" y="129" fill="#F1F5F9" font-family="Arial" font-size="15" font-weight="700">Earned real usage</text><text x="68" y="149" fill="#64748B" font-family="Arial" font-size="12">customers → feedback → fixes</text>
- <circle class="d3" cx="45" cy="186" r="7" fill="#818CF8"/><text x="68" y="183" fill="#F1F5F9" font-family="Arial" font-size="15" font-weight="700">Learned production</text><text x="68" y="203" fill="#64748B" font-family="Arial" font-size="12">auth → state → reliability</text>
- <circle class="d4" cx="45" cy="240" r="7" fill="#A78BFA"/><text x="68" y="237" fill="#F1F5F9" font-family="Arial" font-size="15" font-weight="700">Now: agent systems</text><text x="68" y="257" fill="#64748B" font-family="Arial" font-size="12">tools → control → outcomes</text>
-</g>
-</svg>
+<rect width="1200" height="460" rx="22" fill="url(#bg)"/><rect width="1200" height="460" rx="22" fill="url(#grid)" opacity=".55"/>
+<path d="M0 2H1200" stroke="url(#line)" stroke-width="4"/>
+<circle cx="35" cy="35" r="5" fill="#ff5f57"/><circle cx="53" cy="35" r="5" fill="#febc2e"/><circle cx="71" cy="35" r="5" fill="#28c840"/>
+<text x="94" y="40" fill="#64748b" font-family="monospace" font-size="12">HARSHEL_OS  /  MISSION_CONTROL  /  BUILD_2026</text>
+<circle cx="1110" cy="35" r="4" fill="#00f5d4" filter="url(#glow)"/><text x="1122" y="40" fill="#00f5d4" font-family="monospace" font-size="11">ONLINE</text>
+<text x="64" y="105" fill="#00f5d4" font-family="monospace" font-size="13" letter-spacing="3">FOUNDER-TRAINED ENGINEER</text>
+<text x="60" y="174" fill="#f8fafc" font-family="Arial, sans-serif" font-weight="800" font-size="56">I BUILD SYSTEMS THAT</text>
+<text x="60" y="236" fill="url(#line)" font-family="Arial, sans-serif" font-weight="800" font-size="56">SURVIVE THE REAL WORLD.</text>
+<text x="64" y="280" fill="#94a3b8" font-family="monospace" font-size="16">advanced AI agents  ×  operational software  ×  measurable outcomes</text>
+<line x1="64" y1="310" x2="1135" y2="310" stroke="#173044"/>
+<g font-family="monospace">
+ <text x="64" y="348" fill="#64748b" font-size="11">PROOF_01</text><text x="64" y="382" fill="#f8fafc" font-size="24" font-weight="700">2 PAYING GYMS</text><text x="64" y="406" fill="#00f5d4" font-size="12">FOUNDER → PRODUCTION</text>
+ <text x="354" y="348" fill="#64748b" font-size="11">PROOF_02</text><text x="354" y="382" fill="#f8fafc" font-size="24" font-weight="700">50+ MEMBERS</text><text x="354" y="406" fill="#38bdf8" font-size="12">REAL USERS → REAL FAILURES</text>
+ <text x="644" y="348" fill="#64748b" font-size="11">PROOF_03</text><text x="644" y="382" fill="#f8fafc" font-size="24" font-weight="700">13% → 86%</text><text x="644" y="406" fill="#818cf8" font-size="12">RECOVERY CONFIDENCE</text>
+ <text x="934" y="348" fill="#64748b" font-size="11">PROOF_04</text><text x="934" y="382" fill="#f8fafc" font-size="24" font-weight="700">$0.72</text><text x="934" y="406" fill="#d946ef" font-size="12">PER SUCCESSFUL OUTCOME</text>
+</g></svg>
