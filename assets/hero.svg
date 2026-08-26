@@ -1,49 +1,31 @@
-<svg width="1200" height="460" viewBox="0 0 1200 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg">
 <defs>
- <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#00F5D4" stroke-opacity=".045"/></pattern>
- <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="460"><stop stop-color="#020507"/><stop offset=".55" stop-color="#061017"/><stop offset="1" stop-color="#05030D"/></linearGradient>
- <linearGradient id="neon" x1="50" y1="0" x2="1150" y2="0"><stop stop-color="#00F5D4"/><stop offset=".52" stop-color="#00B8FF"/><stop offset="1" stop-color="#B517FF"/></linearGradient>
- <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
- <style>
- .blink{animation:b 1s steps(1) infinite}.pulse{animation:p 2s ease-in-out infinite}.flow{stroke-dasharray:8 16;animation:f 2s linear infinite}
- @keyframes b{50%{opacity:0}}@keyframes p{50%{opacity:.25}}@keyframes f{to{stroke-dashoffset:-48}}
- </style>
+ <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="430"><stop stop-color="#071018"/><stop offset=".58" stop-color="#0B1220"/><stop offset="1" stop-color="#11101A"/></linearGradient>
+ <linearGradient id="accent" x1="54" y1="0" x2="1146" y2="0"><stop stop-color="#2DD4BF"/><stop offset=".5" stop-color="#38BDF8"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+ <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" fill="none" stroke="#94A3B8" stroke-opacity=".025"/></pattern>
+ <style>.dot{animation:p 2.4s ease-in-out infinite}.d2{animation:p 2.4s .6s ease-in-out infinite}.d3{animation:p 2.4s 1.2s ease-in-out infinite}.d4{animation:p 2.4s 1.8s ease-in-out infinite}@keyframes p{50%{opacity:.3}}</style>
 </defs>
-<rect width="1200" height="460" rx="20" fill="url(#bg)"/><rect width="1200" height="460" rx="20" fill="url(#grid)"/>
-<rect x="1" y="1" width="1198" height="458" rx="19" stroke="#00F5D4" stroke-opacity=".25"/>
-<path d="M0 61H1200" stroke="#00F5D4" stroke-opacity=".16"/><path class="flow" d="M0 61H1200" stroke="url(#neon)" stroke-opacity=".6"/>
-<circle cx="28" cy="30" r="5" fill="#FF4D6D"/><circle cx="48" cy="30" r="5" fill="#FFD166"/><circle class="pulse" cx="68" cy="30" r="5" fill="#00F5D4"/>
-<text x="92" y="36" fill="#64748B" font-family="monospace" font-size="12">HARSHEL_OS // PORTFOLIO_TERMINAL // SESSION_ACTIVE</text>
-<text x="1012" y="36" fill="#00F5D4" font-family="monospace" font-size="12">● ONLINE</text>
-
-<g transform="translate(54 100)">
- <text fill="#00F5D4" font-family="monospace" font-size="13" letter-spacing="2">IDENTITY // 001</text>
- <text y="62" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="53" font-weight="900" letter-spacing="-1.5">HARSHEL</text>
- <text x="267" y="62" fill="url(#neon)" font-family="Arial,Helvetica,sans-serif" font-size="53" font-weight="900" letter-spacing="-1.5">SRIVATSAVA</text>
- <text y="103" fill="#94A3B8" font-family="monospace" font-size="18">SOFTWARE_ENGINEER :: AI_AGENT_SYSTEMS :: FULL_STACK</text>
- <rect y="126" width="660" height="2" fill="url(#neon)" filter="url(#glow)"/>
- <text y="167" fill="#CBD5E1" font-family="Arial,Helvetica,sans-serif" font-size="17">I enter ambiguous workflows, map the failure points,</text>
- <text y="193" fill="#CBD5E1" font-family="Arial,Helvetica,sans-serif" font-size="17">and ship controlled AI systems with measurable outcomes.</text>
- <g transform="translate(0 228)">
-  <rect width="170" height="31" rx="4" fill="#00F5D4" fill-opacity=".08" stroke="#00F5D4" stroke-opacity=".45"/><text x="15" y="20" fill="#5FFFE8" font-family="monospace" font-size="11">REAL_CUSTOMERS ✓</text>
-  <rect x="184" width="170" height="31" rx="4" fill="#00B8FF" fill-opacity=".08" stroke="#00B8FF" stroke-opacity=".45"/><text x="199" y="20" fill="#67D8FF" font-family="monospace" font-size="11">PRODUCTION_MINDSET</text>
-  <rect x="368" width="170" height="31" rx="4" fill="#B517FF" fill-opacity=".08" stroke="#B517FF" stroke-opacity=".45"/><text x="383" y="20" fill="#DF86FF" font-family="monospace" font-size="11">END_TO_END_OWNER</text>
- </g>
+<rect width="1200" height="430" rx="22" fill="url(#bg)"/><rect width="1200" height="430" rx="22" fill="url(#grid)"/>
+<rect x="1" y="1" width="1198" height="428" rx="21" stroke="white" stroke-opacity=".08"/>
+<text x="58" y="54" fill="#5EEAD4" font-family="monospace" font-size="12" font-weight="700" letter-spacing="1.8">HARSHEL SRIVATSAVA // BUILDER JOURNEY</text>
+<text x="58" y="123" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="45" font-weight="800">I didn't start with agents.</text>
+<text x="58" y="173" fill="#CBD5E1" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="600">I started with gym owners, real users, and a product</text>
+<text x="58" y="208" fill="#CBD5E1" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="600">that had to work when nobody was watching.</text>
+<rect x="58" y="237" width="652" height="3" rx="1.5" fill="url(#accent)"/>
+<text x="58" y="281" fill="#94A3B8" font-family="Arial,Helvetica,sans-serif" font-size="17">That experience shaped how I build AI systems today:</text>
+<text x="58" y="314" fill="#E2E8F0" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600">complete workflows · controlled actions · visible failure · measurable outcomes</text>
+<g transform="translate(58 352)">
+ <rect width="164" height="31" rx="15.5" fill="#2DD4BF" fill-opacity=".1" stroke="#2DD4BF" stroke-opacity=".3"/><text x="18" y="20" fill="#99F6E4" font-family="monospace" font-size="11">2 PAYING GYMS</text>
+ <rect x="178" width="164" height="31" rx="15.5" fill="#38BDF8" fill-opacity=".1" stroke="#38BDF8" stroke-opacity=".3"/><text x="196" y="20" fill="#BAE6FD" font-family="monospace" font-size="11">50+ ACTIVE USERS</text>
+ <rect x="356" width="164" height="31" rx="15.5" fill="#A78BFA" fill-opacity=".1" stroke="#A78BFA" stroke-opacity=".3"/><text x="374" y="20" fill="#DDD6FE" font-family="monospace" font-size="11">200+ DOWNLOADS</text>
 </g>
-
-<g transform="translate(785 91)">
- <rect width="361" height="304" rx="10" fill="#010305" stroke="#00B8FF" stroke-opacity=".42"/>
- <rect width="361" height="37" rx="10" fill="#07111A"/><rect y="25" width="361" height="12" fill="#07111A"/>
- <text x="17" y="24" fill="#64748B" font-family="monospace" font-size="11">agent-runtime.log</text>
- <text x="18" y="70" fill="#00F5D4" font-family="monospace" font-size="13">root@harshel:~$ whoami</text>
- <text x="18" y="96" fill="#E2E8F0" font-family="monospace" font-size="13">builder_with_founder_ownership</text>
- <text x="18" y="131" fill="#00F5D4" font-family="monospace" font-size="13">root@harshel:~$ ship --proof</text>
- <text x="18" y="157" fill="#67D8FF" font-family="monospace" font-size="13">customers: 2 B2B</text>
- <text x="18" y="181" fill="#67D8FF" font-family="monospace" font-size="13">users: 50+  downloads: 200+</text>
- <text x="18" y="216" fill="#00F5D4" font-family="monospace" font-size="13">root@harshel:~$ agent --metric</text>
- <text x="18" y="242" fill="#DF86FF" font-family="monospace" font-size="13">cost_per_outcome: $0.72</text>
- <text x="18" y="277" fill="#00F5D4" font-family="monospace" font-size="13">root@harshel:~$ status</text>
- <text x="18" y="300" fill="#5FFFE8" font-family="monospace" font-size="13">OPEN_TO_ENGINEERING_ROLES</text>
- <rect class="blink" x="311" y="288" width="9" height="15" fill="#00F5D4"/>
+<g transform="translate(790 77)">
+ <rect width="348" height="283" rx="16" fill="#050A10" stroke="white" stroke-opacity=".11"/>
+ <text x="24" y="35" fill="#64748B" font-family="monospace" font-size="11" letter-spacing="1.2">WHAT CHANGED OVER TIME</text>
+ <path d="M45 70V242" stroke="url(#accent)" stroke-width="2"/>
+ <circle class="dot" cx="45" cy="78" r="7" fill="#2DD4BF"/><text x="68" y="75" fill="#F1F5F9" font-family="Arial" font-size="15" font-weight="700">Built OGym</text><text x="68" y="95" fill="#64748B" font-family="Arial" font-size="12">idea → web → App Store</text>
+ <circle class="d2" cx="45" cy="132" r="7" fill="#38BDF8"/><text x="68" y="129" fill="#F1F5F9" font-family="Arial" font-size="15" font-weight="700">Earned real usage</text><text x="68" y="149" fill="#64748B" font-family="Arial" font-size="12">customers → feedback → fixes</text>
+ <circle class="d3" cx="45" cy="186" r="7" fill="#818CF8"/><text x="68" y="183" fill="#F1F5F9" font-family="Arial" font-size="15" font-weight="700">Learned production</text><text x="68" y="203" fill="#64748B" font-family="Arial" font-size="12">auth → state → reliability</text>
+ <circle class="d4" cx="45" cy="240" r="7" fill="#A78BFA"/><text x="68" y="237" fill="#F1F5F9" font-family="Arial" font-size="15" font-weight="700">Now: agent systems</text><text x="68" y="257" fill="#64748B" font-family="Arial" font-size="12">tools → control → outcomes</text>
 </g>
 </svg>
