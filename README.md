@@ -60,11 +60,23 @@ A cost-and-value layer that connects model and cloud spend to successful busines
 | Evidence that explains what happened | Evaluation, telemetry, attribution, and audit trails |
 | A result the business actually cares about | Cost, confidence, successful outcomes, and iteration |
 
-## Tools I use
+## Technology map
 
-`Python` · `TypeScript` · `Java` · `FastAPI` · `Django` · `React` · `Next.js` · `PostgreSQL` · `MongoDB` · `AWS` · `Docker` · `CI/CD`
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,ts,java,fastapi,django,react,nextjs,postgres,mongodb,aws,docker,git,github,vscode&theme=dark&perline=14" alt="Python, TypeScript, Java, FastAPI, Django, React, Next.js, PostgreSQL, MongoDB, AWS, Docker, Git, GitHub, and VS Code" />
+</p>
 
-`AI Agents` · `MCP` · `RAG` · `Tool Calling` · `Evaluations` · `OAuth 2.0` · `JWT` · `RBAC` · `Multi-tenancy`
+<p align="center">
+  <code>AI Agents</code> · <code>MCP</code> · <code>RAG</code> · <code>Tool Calling</code> · <code>Evaluations</code> · <code>OAuth 2.0</code> · <code>JWT</code> · <code>RBAC</code> · <code>Multi-tenancy</code>
+</p>
+
+## Build activity
+
+<p align="center">
+  <a href="https://github.com/Harshel17">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Harshel17&bg_color=071018&color=94a3b8&line=38bdf8&point=2dd4bf&area=true&area_color=0e7490&hide_border=true&custom_title=Harshel%27s%20GitHub%20Activity" width="100%" alt="Harshel's GitHub contribution activity graph" />
+  </a>
+</p>
 
 ## Right now
 
