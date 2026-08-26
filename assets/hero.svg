@@ -1,0 +1,40 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050816"/>
+      <stop offset="0.52" stop-color="#101B3F"/>
+      <stop offset="1" stop-color="#071C24"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="250" y1="60" x2="950" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED"/>
+      <stop offset="0.48" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <circle cx="1000" cy="50" r="210" fill="#22D3EE" opacity=".06"/>
+  <circle cx="175" cy="335" r="210" fill="#7C3AED" opacity=".08"/>
+  <path d="M72 276C205 185 335 306 478 205C608 114 731 198 874 104C965 44 1051 79 1128 42" stroke="url(#accent)" stroke-width="2" opacity=".28"/>
+  <g opacity=".75">
+    <circle cx="190" cy="237" r="7" fill="#8B5CF6"/>
+    <circle cx="420" cy="235" r="7" fill="#38BDF8"/>
+    <circle cx="670" cy="160" r="7" fill="#22D3EE"/>
+    <circle cx="915" cy="77" r="7" fill="#34D399"/>
+    <path d="M197 237H413M427 232L663 163M677 156L908 80" stroke="url(#accent)" stroke-width="2" stroke-dasharray="7 9"/>
+  </g>
+  <rect x="72" y="54" width="218" height="34" rx="17" fill="#FFFFFF" opacity=".08"/>
+  <circle cx="94" cy="71" r="5" fill="#34D399"/>
+  <text x="109" y="77" fill="#D1FAE5" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="1">BUILDING IN PUBLIC</text>
+  <text x="72" y="146" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="800">Harshel Srivatsava</text>
+  <rect x="72" y="169" width="650" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="72" y="218" fill="#C7D2FE" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="600">AI Agents  •  Product Engineering  •  Full-Stack Systems</text>
+  <text x="72" y="258" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="18">I turn messy operational problems into reliable, measurable software.</text>
+  <g transform="translate(805 230)">
+    <rect width="323" height="72" rx="16" fill="#FFFFFF" opacity=".06" stroke="#67E8F9" stroke-opacity=".25"/>
+    <text x="22" y="29" fill="#67E8F9" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="1">FROM IDEA TO OUTCOME</text>
+    <text x="22" y="53" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600">Design → Build → Ship → Measure</text>
+  </g>
+</svg>
