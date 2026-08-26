@@ -1,54 +1,61 @@
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Harshel Srivatsava — AI Agents, Product Engineering, Full-Stack Systems" />
+  <img src="./assets/hero.svg" width="100%" alt="Harshel Srivatsava — Product Engineer building AI agents and full-stack systems" />
 </p>
 
 <p align="center">
-  <a href="mailto:harshel333@gmail.com"><img src="https://img.shields.io/badge/Email-Let's%20Talk-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://github.com/Harshel17"><img src="https://img.shields.io/badge/GitHub-Harshel17-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <img src="https://img.shields.io/badge/Open%20To-SWE%20%7C%20Applied%20AI%20%7C%20FDE-059669?style=for-the-badge" alt="Open to roles"/>
+  <a href="mailto:harshel333@gmail.com"><img src="https://img.shields.io/badge/LET'S_TALK-Email_Harshel-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Harshel"/></a>
+  <a href="https://github.com/Harshel17?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-My_Repositories-111827?style=for-the-badge&logo=github&logoColor=white" alt="Explore repositories"/></a>
 </p>
 
-## I build systems that finish the job
+## Builder first. Engineer always.
 
-I'm a software engineer and former solo founder. I don't stop at an AI demo—I build the product around it: data models, APIs, permissions, evaluation, human approval, observability, deployment, and measurable outcomes.
+I’m a software engineer who has taken products from a blank page to real users. I built and launched **OGym** as a solo founder, then carried that product ownership into AI agents, operational platforms, and full-stack systems.
 
-> **My edge:** I can sit with an unclear business problem, find the real failure point, and turn it into working software people can use.
+My work sits where software becomes useful: **understanding the workflow, designing the system, building the product, handling failure, and measuring the result.**
 
 <table>
   <tr>
-    <td align="center"><strong>2</strong><br/><sub>paying B2B gyms</sub></td>
-    <td align="center"><strong>50+</strong><br/><sub>active members</sub></td>
-    <td align="center"><strong>200+</strong><br/><sub>mobile downloads</sub></td>
-    <td align="center"><strong>$0.72</strong><br/><sub>cost per agent outcome</sub></td>
+    <td align="center" width="25%"><h3>2</h3><sub>paying B2B customers</sub></td>
+    <td align="center" width="25%"><h3>50+</h3><sub>active product users</sub></td>
+    <td align="center" width="25%"><h3>200+</h3><sub>mobile downloads</sub></td>
+    <td align="center" width="25%"><h3>$0.72</h3><sub>per successful agent outcome</sub></td>
   </tr>
 </table>
 
-## Selected systems
+## Work I’m proud of
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### 🏋️ OGym
-**A real product, not a portfolio exercise**
+#### Built from zero to paying customers
 
-Built and launched an AI-powered, multi-tenant gym platform as a solo founder: web app, App Store mobile app, member experience, owner dashboard, authentication, payments-related workflows, and cloud deployment.
+An AI-powered, multi-tenant gym management and fitness product with a web application, App Store mobile app, member experience, owner dashboard, authentication, and cloud infrastructure.
 
-**Proof:** 2 paying B2B gyms · 50+ active members · 200+ downloads
+**Impact**
+- 2 paying B2B gyms
+- 50+ active members
+- 200+ mobile downloads
+- Built through direct conversations with gym owners and members
 
-`Django` `React` `PostgreSQL` `AWS` `OAuth 2.0` `MCP`
+**System:** `Django` `React` `PostgreSQL` `AWS` `OAuth 2.0` `MCP`
 
 </td>
 <td width="50%" valign="top">
 
-### 📊 [Agent Economics](https://github.com/Harshel17/agent-economics)
-**Measure AI by business outcomes**
+### 📊 [Agent Economics →](https://github.com/Harshel17/agent-economics)
+#### Measure AI by outcomes, not token counts
 
-Connects inference and infrastructure spend to agent executions, successful outcomes, attribution confidence, and optimization opportunities.
+A cost and value layer for production AI agents. It attributes model and infrastructure spend to executions, successful business outcomes, confidence, and optimization opportunities.
 
-**Proof:** $11,200 → 25,000 runs → 15,500 qualified leads → **$0.72/outcome**
+**Impact**
+- $11,200 attributable monthly cost
+- 25,000 agent runs
+- 15,500 qualified outcomes
+- **$0.72 per successful outcome**
 
-`FastAPI` `React` `TypeScript` `SQLAlchemy` `Telemetry`
+**System:** `FastAPI` `React` `TypeScript` `SQLAlchemy` `Telemetry`
 
 </td>
 </tr>
@@ -56,77 +63,78 @@ Connects inference and infrastructure spend to agent executions, successful outc
 <td width="50%" valign="top">
 
 ### 🚗 ReserveGuard
-**Multi-party recovery before failure**
+#### Recover a reservation before it fails
 
-Predicts reservation fulfillment risk, simulates recovery strategies, coordinates customers, renters and managers, and supports voice conversations, approvals, takeover, and audited decisions.
+A multi-party operations platform that predicts fulfillment risk, simulates recovery strategies, coordinates renters, customers and managers, and supports voice conversations, approvals, human takeover, and audit trails.
 
-**Proof:** seeded incident recovered from **13% confidence to 86% on track**
+**Impact**
+- Modeled 3 branches and 58 vehicles
+- Tested cross-branch, upgrade and early-return strategies
+- Recovered a seeded incident from **13% confidence to 86% on track**
 
-`FastAPI` `React` `Agents` `Voice` `Decision Systems`
+**System:** `FastAPI` `React` `SQLAlchemy` `Voice Agents` `Decision Systems`
 
 </td>
 <td width="50%" valign="top">
 
-### 🔎 [Meridian](https://github.com/Harshel17/meridian-demo)
-**Agent execution with an economic trail**
+### 🔎 [Meridian →](https://github.com/Harshel17/meridian-demo)
+#### Make every agent run economically observable
 
-A seven-step sales-research agent that sends execution, infrastructure, and outcome telemetry into Agent Economics—from prospect research to measurable business value.
+A seven-step sales-research agent that sends execution, infrastructure, and business-outcome telemetry into Agent Economics—from prospect research to measurable value.
 
-**Proof:** complete agent → telemetry → economics workflow
+**Impact**
+- End-to-end agent → telemetry → economics workflow
+- Step-level execution and infrastructure attribution
+- Outcome verification and optimization evidence
 
-`Python` `FastAPI` `React` `Agent Workflows` `Telemetry`
+**System:** `Python` `FastAPI` `React` `Agent Workflows` `Telemetry`
 
 </td>
 </tr>
 </table>
 
-## How I engineer AI products
+## What I bring to an engineering team
 
-```mermaid
-flowchart LR
-    A["Messy workflow"] --> B["System model"]
-    B --> C["Agent + tools"]
-    C --> D["Guardrails + approval"]
-    D --> E["Observable outcome"]
-```
+| Product judgment | Systems engineering | Applied AI | Ownership |
+|---|---|---|---|
+| Find the actual workflow problem before building | Design APIs, data models, permissions and multi-tenant boundaries | Build agents with tools, context, evaluations and guardrails | Carry work from ambiguity through deployment and iteration |
+| Translate user friction into concrete product behavior | Debug production auth, state, integration and performance failures | Connect agent behavior to observable business outcomes | Communicate tradeoffs and keep the system understandable |
 
-I care about the parts between the model call and the business result:
+## Engineering principles
 
-- **Control:** permissions, tool contracts, deterministic rules, and human approval
-- **Reliability:** evaluation, failure handling, audit trails, and observable execution
-- **Product:** workflows that make sense to the people actually doing the job
-- **Economics:** cost per successful outcome—not just tokens, calls, or impressive demos
+1. **The workflow is the product.** A model response is only one step in a useful system.
+2. **Control before autonomy.** Permissions, tool contracts, deterministic rules, and human approval come first.
+3. **Failure should be visible.** Evaluation, audit trails, state transitions, and recovery paths belong in the design.
+4. **Measure the result.** Cost per successful outcome matters more than tokens or agent runs alone.
 
 ## Technical toolkit
 
 <p>
-  <img src="https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=FBBF24"/>
-  <img src="https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript&logoColor=60A5FA"/>
-  <img src="https://img.shields.io/badge/JavaScript-111827?style=flat-square&logo=javascript&logoColor=FDE047"/>
-  <img src="https://img.shields.io/badge/Java-111827?style=flat-square&logo=openjdk&logoColor=F97316"/>
-  <img src="https://img.shields.io/badge/FastAPI-111827?style=flat-square&logo=fastapi&logoColor=34D399"/>
-  <img src="https://img.shields.io/badge/Django-111827?style=flat-square&logo=django&logoColor=34D399"/>
-  <img src="https://img.shields.io/badge/React-111827?style=flat-square&logo=react&logoColor=22D3EE"/>
-  <img src="https://img.shields.io/badge/Next.js-111827?style=flat-square&logo=nextdotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-111827?style=flat-square&logo=postgresql&logoColor=60A5FA"/>
-  <img src="https://img.shields.io/badge/AWS-111827?style=flat-square&logo=amazonwebservices&logoColor=F59E0B"/>
-  <img src="https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker&logoColor=60A5FA"/>
-  <img src="https://img.shields.io/badge/AI_Agents-7C3AED?style=flat-square"/>
-  <img src="https://img.shields.io/badge/MCP-7C3AED?style=flat-square"/>
-  <img src="https://img.shields.io/badge/RAG-7C3AED?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Tool_Calling-7C3AED?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Evaluations-7C3AED?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Python-0F172A?style=flat-square&logo=python&logoColor=FBBF24"/>
+  <img src="https://img.shields.io/badge/TypeScript-0F172A?style=flat-square&logo=typescript&logoColor=60A5FA"/>
+  <img src="https://img.shields.io/badge/Java-0F172A?style=flat-square&logo=openjdk&logoColor=F97316"/>
+  <img src="https://img.shields.io/badge/FastAPI-0F172A?style=flat-square&logo=fastapi&logoColor=34D399"/>
+  <img src="https://img.shields.io/badge/Django-0F172A?style=flat-square&logo=django&logoColor=34D399"/>
+  <img src="https://img.shields.io/badge/React-0F172A?style=flat-square&logo=react&logoColor=22D3EE"/>
+  <img src="https://img.shields.io/badge/Next.js-0F172A?style=flat-square&logo=nextdotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-0F172A?style=flat-square&logo=postgresql&logoColor=60A5FA"/>
+  <img src="https://img.shields.io/badge/AWS-0F172A?style=flat-square&logo=amazonwebservices&logoColor=F59E0B"/>
+  <img src="https://img.shields.io/badge/Docker-0F172A?style=flat-square&logo=docker&logoColor=60A5FA"/>
 </p>
 
-## The person behind the code
+`AI Agents` · `MCP` · `RAG` · `Tool Calling` · `Evaluations` · `LLM APIs` · `OAuth 2.0` · `JWT` · `RBAC` · `Multi-tenancy` · `CI/CD`
 
-- 🎓 M.S. in Computer Science, University of Alabama at Birmingham
-- 🚀 Built a startup product from zero to paying customers
-- 🧭 Looking for **Software Engineering, Applied AI, Forward Deployed, or Full-Stack** roles
-- 🛠️ Most useful when the problem is important, ambiguous, and needs real ownership
-- 🤝 Happy to prove fit through a technical assignment or a real workflow
+## Now
+
+- Building mature multi-agent products for real operational workflows
+- Exploring **Software Engineering, Applied AI, Forward Deployed, and Full-Stack** roles
+- Best suited to important, ambiguous problems that need both engineering depth and product ownership
+- M.S. in Computer Science — University of Alabama at Birmingham
+
+---
 
 <p align="center">
-  <strong>Have a messy workflow that should be software?</strong><br/>
-  <a href="mailto:harshel333@gmail.com">Send it to me—I’ll show you how I think.</a>
+  <strong>Give me the messy workflow.</strong><br/>
+  I’ll map the failure points, build the system, and show you what changed.<br/><br/>
+  <a href="mailto:harshel333@gmail.com"><strong>harshel333@gmail.com</strong></a>
 </p>
