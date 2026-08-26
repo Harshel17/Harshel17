@@ -1,42 +1,39 @@
-<svg width="1200" height="555" viewBox="0 0 1200 555" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg">
 <defs>
- <pattern id="g" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#00F5D4" stroke-opacity=".035"/></pattern>
- <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="555"><stop stop-color="#020507"/><stop offset="1" stop-color="#071019"/></linearGradient>
- <style>.p{animation:p 2.5s ease-in-out infinite}.p2{animation:p 2.5s .7s ease-in-out infinite}@keyframes p{50%{opacity:.25}}</style>
+ <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="430"><stop stop-color="#071018"/><stop offset="1" stop-color="#11101A"/></linearGradient>
+ <linearGradient id="path" x1="90" y1="0" x2="1110" y2="0"><stop stop-color="#2DD4BF"/><stop offset=".5" stop-color="#38BDF8"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+ <style>.move{stroke-dasharray:8 15;animation:m 2.3s linear infinite}@keyframes m{to{stroke-dashoffset:-46}}</style>
 </defs>
-<rect width="1200" height="555" rx="20" fill="url(#bg)"/><rect width="1200" height="555" rx="20" fill="url(#g)"/>
-<text x="45" y="48" fill="#00F5D4" font-family="monospace" font-size="13" letter-spacing="2">DEPLOYED_SYSTEMS // OUTCOME_LOG</text>
-<text x="1040" y="48" fill="#475569" font-family="monospace" font-size="11">04 RECORDS</text>
-<g transform="translate(45 75)">
- <rect width="535" height="202" rx="9" fill="#050A0F" stroke="#00F5D4" stroke-opacity=".4"/><path d="M0 41H535" stroke="#00F5D4" stroke-opacity=".16"/>
- <circle class="p" cx="22" cy="21" r="4" fill="#00F5D4"/><text x="35" y="26" fill="#5FFFE8" font-family="monospace" font-size="11">SYSTEM_01 // OGym</text>
- <text x="22" y="78" fill="#F8FAFC" font-family="Arial" font-size="25" font-weight="800">Product → paying customers</text>
- <text x="22" y="114" fill="#94A3B8" font-family="Arial" font-size="14">Multi-tenant gym platform across web and mobile.</text>
- <text x="22" y="156" fill="#00F5D4" font-family="monospace" font-size="25" font-weight="700">2 B2B  //  50+ users</text>
- <text x="22" y="184" fill="#475569" font-family="monospace" font-size="11">DJANGO · REACT · POSTGRESQL · AWS · MCP</text>
+<rect width="1200" height="430" rx="22" fill="url(#bg)"/><rect x="1" y="1" width="1198" height="428" rx="21" stroke="white" stroke-opacity=".08"/>
+<text x="50" y="48" fill="#94A3B8" font-family="monospace" font-size="12" font-weight="700" letter-spacing="1.6">ONE BUILDER // FOUR SYSTEMS // ONE EVOLVING QUESTION</text>
+<text x="50" y="86" fill="#F8FAFC" font-family="Arial" font-size="25" font-weight="700">How do we make software act—and still trust what happens next?</text>
+<path d="M116 171H1084" stroke="#1E293B" stroke-width="3"/><path class="move" d="M116 171H1084" stroke="url(#path)" stroke-width="3"/>
+<g>
+ <circle cx="116" cy="171" r="34" fill="#0B2523" stroke="#2DD4BF"/><text x="116" y="177" text-anchor="middle" fill="#99F6E4" font-family="monospace" font-size="13" font-weight="700">01</text>
+ <text x="116" y="234" text-anchor="middle" fill="#F8FAFC" font-family="Arial" font-size="18" font-weight="700">OGym</text>
+ <text x="116" y="260" text-anchor="middle" fill="#5EEAD4" font-family="monospace" font-size="11">SHIP A PRODUCT</text>
+ <text x="116" y="291" text-anchor="middle" fill="#94A3B8" font-family="Arial" font-size="13">Real customers forced</text><text x="116" y="310" text-anchor="middle" fill="#94A3B8" font-family="Arial" font-size="13">real engineering.</text>
+ <text x="116" y="354" text-anchor="middle" fill="#E2E8F0" font-family="monospace" font-size="13">2 B2B · 50+ users</text>
 </g>
-<g transform="translate(620 75)">
- <rect width="535" height="202" rx="9" fill="#050A0F" stroke="#00B8FF" stroke-opacity=".4"/><path d="M0 41H535" stroke="#00B8FF" stroke-opacity=".16"/>
- <circle class="p2" cx="22" cy="21" r="4" fill="#00B8FF"/><text x="35" y="26" fill="#67D8FF" font-family="monospace" font-size="11">SYSTEM_02 // AGENT_ECONOMICS</text>
- <text x="22" y="78" fill="#F8FAFC" font-family="Arial" font-size="25" font-weight="800">Agent runs → business value</text>
- <text x="22" y="114" fill="#94A3B8" font-family="Arial" font-size="14">Model + infrastructure cost attributed to outcomes.</text>
- <text x="22" y="156" fill="#67D8FF" font-family="monospace" font-size="25" font-weight="700">$0.72 / outcome</text>
- <text x="22" y="184" fill="#475569" font-family="monospace" font-size="11">FASTAPI · REACT · SQLALCHEMY · TELEMETRY</text>
+<g>
+ <circle cx="439" cy="171" r="34" fill="#0A2030" stroke="#38BDF8"/><text x="439" y="177" text-anchor="middle" fill="#BAE6FD" font-family="monospace" font-size="13" font-weight="700">02</text>
+ <text x="439" y="234" text-anchor="middle" fill="#F8FAFC" font-family="Arial" font-size="18" font-weight="700">ReserveGuard</text>
+ <text x="439" y="260" text-anchor="middle" fill="#7DD3FC" font-family="monospace" font-size="11">RECOVER A FAILURE</text>
+ <text x="439" y="291" text-anchor="middle" fill="#94A3B8" font-family="Arial" font-size="13">Agents coordinate people,</text><text x="439" y="310" text-anchor="middle" fill="#94A3B8" font-family="Arial" font-size="13">policy, and inventory.</text>
+ <text x="439" y="354" text-anchor="middle" fill="#E2E8F0" font-family="monospace" font-size="13">13% → 86%</text>
 </g>
-<g transform="translate(45 313)">
- <rect width="535" height="202" rx="9" fill="#050A0F" stroke="#B517FF" stroke-opacity=".4"/><path d="M0 41H535" stroke="#B517FF" stroke-opacity=".16"/>
- <circle class="p2" cx="22" cy="21" r="4" fill="#B517FF"/><text x="35" y="26" fill="#DF86FF" font-family="monospace" font-size="11">SYSTEM_03 // RESERVEGUARD</text>
- <text x="22" y="78" fill="#F8FAFC" font-family="Arial" font-size="25" font-weight="800">Risk detected → recovery executed</text>
- <text x="22" y="114" fill="#94A3B8" font-family="Arial" font-size="14">Multi-party agents, voice, approvals, and audit trails.</text>
- <text x="22" y="156" fill="#DF86FF" font-family="monospace" font-size="25" font-weight="700">13% → 86% on track</text>
- <text x="22" y="184" fill="#475569" font-family="monospace" font-size="11">FASTAPI · REACT · VOICE · DECISION SYSTEMS</text>
+<g>
+ <circle cx="762" cy="171" r="34" fill="#12162D" stroke="#818CF8"/><text x="762" y="177" text-anchor="middle" fill="#C7D2FE" font-family="monospace" font-size="13" font-weight="700">03</text>
+ <text x="762" y="234" text-anchor="middle" fill="#F8FAFC" font-family="Arial" font-size="18" font-weight="700">Meridian</text>
+ <text x="762" y="260" text-anchor="middle" fill="#A5B4FC" font-family="monospace" font-size="11">OBSERVE THE AGENT</text>
+ <text x="762" y="291" text-anchor="middle" fill="#94A3B8" font-family="Arial" font-size="13">Every step emits an</text><text x="762" y="310" text-anchor="middle" fill="#94A3B8" font-family="Arial" font-size="13">execution trail.</text>
+ <text x="762" y="354" text-anchor="middle" fill="#E2E8F0" font-family="monospace" font-size="13">7-step workflow</text>
 </g>
-<g transform="translate(620 313)">
- <rect width="535" height="202" rx="9" fill="#050A0F" stroke="#00F5D4" stroke-opacity=".4"/><path d="M0 41H535" stroke="#00F5D4" stroke-opacity=".16"/>
- <circle class="p" cx="22" cy="21" r="4" fill="#00F5D4"/><text x="35" y="26" fill="#5FFFE8" font-family="monospace" font-size="11">SYSTEM_04 // MERIDIAN</text>
- <text x="22" y="78" fill="#F8FAFC" font-family="Arial" font-size="25" font-weight="800">Agent execution → observable trail</text>
- <text x="22" y="114" fill="#94A3B8" font-family="Arial" font-size="14">Research workflow connected to telemetry and economics.</text>
- <text x="22" y="156" fill="#5FFFE8" font-family="monospace" font-size="25" font-weight="700">7-step agent pipeline</text>
- <text x="22" y="184" fill="#475569" font-family="monospace" font-size="11">PYTHON · FASTAPI · REACT · AGENT WORKFLOWS</text>
+<g>
+ <circle cx="1084" cy="171" r="34" fill="#20142E" stroke="#A78BFA"/><text x="1084" y="177" text-anchor="middle" fill="#DDD6FE" font-family="monospace" font-size="13" font-weight="700">04</text>
+ <text x="1084" y="234" text-anchor="middle" fill="#F8FAFC" font-family="Arial" font-size="18" font-weight="700">Agent Economics</text>
+ <text x="1084" y="260" text-anchor="middle" fill="#C4B5FD" font-family="monospace" font-size="11">MEASURE THE RESULT</text>
+ <text x="1084" y="291" text-anchor="middle" fill="#94A3B8" font-family="Arial" font-size="13">Cost becomes meaningful</text><text x="1084" y="310" text-anchor="middle" fill="#94A3B8" font-family="Arial" font-size="13">only beside an outcome.</text>
+ <text x="1084" y="354" text-anchor="middle" fill="#E2E8F0" font-family="monospace" font-size="13">$0.72 / outcome</text>
 </g>
 </svg>
