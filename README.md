@@ -23,6 +23,10 @@ I’m strongest where the problem is still unclear: **understand the workflow, d
   </tr>
 </table>
 
+<p align="center">
+  <img src="./assets/project-showcase.svg" width="100%" alt="Selected systems and measurable outcomes" />
+</p>
+
 ## Selected work
 
 <table>
