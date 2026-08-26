@@ -1,149 +1,87 @@
-<p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Harshel Srivatsava — Software Engineer building AI agents and full-stack systems" />
-</p>
+<p align="center"><img src="./assets/hero.svg" width="100%" alt="Harshel Srivatsava cyberpunk engineering terminal"/></p>
 
 <p align="center">
-  <a href="mailto:harshel333@gmail.com"><img src="https://img.shields.io/badge/Email-Harshel-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Harshel"/></a>
-  <a href="https://github.com/Harshel17?tab=repositories"><img src="https://img.shields.io/badge/View-Projects-111827?style=for-the-badge&logo=github&logoColor=white" alt="View projects"/></a>
-  <img src="https://img.shields.io/badge/Open_to-Engineering_Roles-047857?style=for-the-badge" alt="Open to engineering roles"/>
+  <a href="mailto:harshel333@gmail.com"><img src="https://img.shields.io/badge/%3E_EMAIL-HARSHEL-00F5D4?style=for-the-badge&labelColor=020507&logo=gmail&logoColor=00F5D4"/></a>
+  <a href="https://github.com/Harshel17?tab=repositories"><img src="https://img.shields.io/badge/%3E_EXPLORE-SYSTEMS-00B8FF?style=for-the-badge&labelColor=020507&logo=github&logoColor=00B8FF"/></a>
+  <img src="https://img.shields.io/badge/STATUS-OPEN_TO_ROLES-B517FF?style=for-the-badge&labelColor=020507"/>
 </p>
 
-## Software engineer with a founder’s ownership
+## `01 // PROFILE_SIGNAL`
 
-I’ve taken products from a blank page to real users. I built and launched **OGym** as a solo founder, then brought the same end-to-end ownership to AI agents, operational platforms, and full-stack systems.
+I’m a software engineer who has already crossed the line from **building projects** to **shipping products**. I took OGym from a blank page to paying B2B customers, then carried that founder-level ownership into agent systems and operational software.
 
-I’m strongest where the problem is still unclear: **understand the workflow, design the system, ship the product, handle failure, and measure the outcome.**
+> **Operating mode:** enter an ambiguous workflow → identify the failure points → design the state and boundaries → ship the complete system → measure the outcome.
 
-<table>
-  <tr>
-    <td align="center" width="25%"><h3>2</h3><sub>paying B2B customers</sub></td>
-    <td align="center" width="25%"><h3>50+</h3><sub>active product users</sub></td>
-    <td align="center" width="25%"><h3>200+</h3><sub>mobile downloads</sub></td>
-    <td align="center" width="25%"><h3>$0.72</h3><sub>per successful agent outcome</sub></td>
-  </tr>
-</table>
+<p align="center"><img src="./assets/project-showcase.svg" width="100%" alt="Deployed systems and business outcomes"/></p>
 
-<p align="center">
-  <img src="./assets/project-showcase.svg" width="100%" alt="Selected systems and measurable outcomes" />
-</p>
+## `02 // SYSTEM_RECORDS`
 
-## Selected work
+### `OGYM // PRODUCT_DEPLOYED`
 
-<table>
-<tr>
-<td width="50%" valign="top">
+AI-powered, multi-tenant gym platform across web and mobile. Built through direct conversations with gym owners and members.
 
-### 🏋️ OGym
-#### Zero to paying customers
+- **Proof:** 2 paying B2B gyms · 50+ active members · 200+ downloads
+- **Stack:** `Django` `React` `PostgreSQL` `AWS` `OAuth 2.0` `MCP`
 
-An AI-powered, multi-tenant gym management and fitness product spanning a web application, App Store mobile app, member experience, owner dashboard, authentication, and cloud infrastructure.
+### `AGENT_ECONOMICS // VALUE_OBSERVABILITY` · [OPEN REPOSITORY →](https://github.com/Harshel17/agent-economics)
 
-**Outcome**
-- 2 paying B2B gyms
-- 50+ active members
-- 200+ mobile downloads
-- Shaped through direct conversations with gym owners and members
+Attributes AI-model and infrastructure spend to executions, verified outcomes, confidence, and optimization opportunities.
 
-**Stack:** `Django` `React` `PostgreSQL` `AWS` `OAuth 2.0` `MCP`
+- **Proof:** $11,200 cost · 25,000 runs · 15,500 outcomes · **$0.72 per successful outcome**
+- **Stack:** `FastAPI` `React` `TypeScript` `SQLAlchemy` `Telemetry`
 
-</td>
-<td width="50%" valign="top">
+### `RESERVEGUARD // MULTI_AGENT_RECOVERY`
 
-### 📊 [Agent Economics →](https://github.com/Harshel17/agent-economics)
-#### Measure AI by outcomes
+Predicts rental fulfillment risk and orchestrates recovery across customers, renters, and managers with simulation, voice, approvals, takeover, and audit trails.
 
-A cost-and-value layer for production AI agents. It attributes model and infrastructure spend to executions, successful business outcomes, confidence, and optimization opportunities.
+- **Proof:** seeded incident recovered from **13% confidence to 86% on track**
+- **Stack:** `FastAPI` `React` `SQLAlchemy` `Voice Agents` `Decision Systems`
 
-**Outcome**
-- $11,200 attributable monthly cost
-- 25,000 agent runs
-- 15,500 qualified outcomes
-- **$0.72 per successful outcome**
+### `MERIDIAN // AGENT_EXECUTION` · [OPEN REPOSITORY →](https://github.com/Harshel17/meridian-demo)
 
-**Stack:** `FastAPI` `React` `TypeScript` `SQLAlchemy` `Telemetry`
+Seven-step sales-research workflow with step-level execution, infrastructure, and outcome telemetry connected to Agent Economics.
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+- **Proof:** complete agent → telemetry → economics → verified-outcome trail
+- **Stack:** `Python` `FastAPI` `React` `Agent Workflows` `Telemetry`
 
-### 🚗 ReserveGuard
-#### Recover before failure
+## `03 // EXECUTION_PROTOCOL`
 
-A multi-party operations platform that predicts reservation risk, simulates recovery strategies, coordinates renters, customers and managers, and supports voice conversations, approvals, human takeover, and audit trails.
+<p align="center"><img src="./assets/engineering-loop.svg" width="100%" alt="Engineering execution protocol"/></p>
 
-**Outcome**
-- Modeled 3 branches and 58 vehicles
-- Tested cross-branch, upgrade, and early-return strategies
-- Recovered a seeded incident from **13% confidence to 86% on track**
+- `PRODUCT_JUDGMENT` — find the real workflow problem before building
+- `SYSTEMS_ENGINEERING` — model APIs, data, state, permissions, and multi-tenant boundaries
+- `APPLIED_AI` — agents with tools, evaluations, guardrails, and human control
+- `OWNERSHIP` — ambiguity through deployment, recovery, iteration, and outcome measurement
 
-**Stack:** `FastAPI` `React` `SQLAlchemy` `Voice Agents` `Decision Systems`
-
-</td>
-<td width="50%" valign="top">
-
-### 🔎 [Meridian →](https://github.com/Harshel17/meridian-demo)
-#### Make agent runs observable
-
-A seven-step sales-research agent that sends execution, infrastructure, and business-outcome telemetry into Agent Economics—from prospect research to measurable value.
-
-**Outcome**
-- End-to-end agent → telemetry → economics workflow
-- Step-level execution and infrastructure attribution
-- Outcome verification and optimization evidence
-
-**Stack:** `Python` `FastAPI` `React` `Agent Workflows` `Telemetry`
-
-</td>
-</tr>
-</table>
-
-## What I bring
-
-- **Product judgment** — find the actual workflow problem before building and translate user friction into concrete behavior
-- **Systems engineering** — design APIs, data models, permissions, and multi-tenant boundaries; debug production auth, state, integration, and performance failures
-- **Applied AI** — build agents with tools, context, evaluations, guardrails, and observable business outcomes
-- **Ownership** — carry work from ambiguity through deployment, iteration, and clear communication of tradeoffs
-
-<p align="center">
-  <img src="./assets/engineering-loop.svg" width="100%" alt="Harshel's engineering loop from workflow understanding to measurable outcome" />
-</p>
-
-## Engineering principles
-
-1. **The workflow is the product.** A model response is only one step in a useful system.
-2. **Control before autonomy.** Permissions, tool contracts, deterministic rules, and human approval come first.
-3. **Failure should be visible.** Evaluation, audit trails, state transitions, and recovery paths belong in the design.
-4. **Measure the result.** Cost per successful outcome matters more than tokens or agent runs alone.
-
-## Technical toolkit
+## `04 // TOOLCHAIN`
 
 <p>
-  <img src="https://img.shields.io/badge/Python-0F172A?style=flat-square&logo=python&logoColor=FBBF24"/>
-  <img src="https://img.shields.io/badge/TypeScript-0F172A?style=flat-square&logo=typescript&logoColor=60A5FA"/>
-  <img src="https://img.shields.io/badge/Java-0F172A?style=flat-square&logo=openjdk&logoColor=F97316"/>
-  <img src="https://img.shields.io/badge/FastAPI-0F172A?style=flat-square&logo=fastapi&logoColor=34D399"/>
-  <img src="https://img.shields.io/badge/Django-0F172A?style=flat-square&logo=django&logoColor=34D399"/>
-  <img src="https://img.shields.io/badge/React-0F172A?style=flat-square&logo=react&logoColor=22D3EE"/>
-  <img src="https://img.shields.io/badge/Next.js-0F172A?style=flat-square&logo=nextdotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-0F172A?style=flat-square&logo=postgresql&logoColor=60A5FA"/>
-  <img src="https://img.shields.io/badge/AWS-0F172A?style=flat-square&logo=amazonwebservices&logoColor=F59E0B"/>
-  <img src="https://img.shields.io/badge/Docker-0F172A?style=flat-square&logo=docker&logoColor=60A5FA"/>
+<img src="https://img.shields.io/badge/PYTHON-020507?style=for-the-badge&logo=python&logoColor=00F5D4"/>
+<img src="https://img.shields.io/badge/TYPESCRIPT-020507?style=for-the-badge&logo=typescript&logoColor=00B8FF"/>
+<img src="https://img.shields.io/badge/FASTAPI-020507?style=for-the-badge&logo=fastapi&logoColor=00F5D4"/>
+<img src="https://img.shields.io/badge/DJANGO-020507?style=for-the-badge&logo=django&logoColor=00F5D4"/>
+<img src="https://img.shields.io/badge/REACT-020507?style=for-the-badge&logo=react&logoColor=00B8FF"/>
+<img src="https://img.shields.io/badge/POSTGRESQL-020507?style=for-the-badge&logo=postgresql&logoColor=00B8FF"/>
+<img src="https://img.shields.io/badge/AWS-020507?style=for-the-badge&logo=amazonwebservices&logoColor=B517FF"/>
+<img src="https://img.shields.io/badge/DOCKER-020507?style=for-the-badge&logo=docker&logoColor=00B8FF"/>
 </p>
 
-`AI Agents` · `MCP` · `RAG` · `Tool Calling` · `Evaluations` · `LLM APIs` · `OAuth 2.0` · `JWT` · `RBAC` · `Multi-tenancy` · `CI/CD`
+`AI_AGENTS` · `MCP` · `RAG` · `TOOL_CALLING` · `EVALUATIONS` · `LLM_APIS` · `OAUTH_2.0` · `JWT` · `RBAC` · `MULTI_TENANCY` · `CI/CD`
 
-## Currently
+## `05 // CURRENT_PROCESS`
 
-- Building mature multi-agent products for real operational workflows
-- Exploring **Software Engineering, Applied AI, Forward Deployed, and Full-Stack** roles
-- Best suited to important, ambiguous problems needing engineering depth and product ownership
-- M.S. in Computer Science — University of Alabama at Birmingham
+```text
+focus       = mature multi-agent products for operational workflows
+roles       = software engineering | applied AI | forward deployed | full-stack
+education   = M.S. Computer Science, University of Alabama at Birmingham
+best_mode   = important + ambiguous + end-to-end ownership
+status      = OPEN_TO_ENGINEERING_ROLES
+```
 
 ---
 
 <p align="center">
-  <strong>Give me the messy workflow.</strong><br/>
-  I’ll map the failure points, build the system, and show you what changed.<br/><br/>
-  <a href="mailto:harshel333@gmail.com"><strong>harshel333@gmail.com</strong></a>
+  <code>root@harshel:~$ solve --workflow="messy" --ship --measure</code><br/><br/>
+  <strong>Give me the messy workflow. I’ll show you the system.</strong><br/><br/>
+  <a href="mailto:harshel333@gmail.com">harshel333@gmail.com</a>
 </p>
