@@ -1,17 +1,18 @@
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Harshel Srivatsava — Product Engineer building AI agents and full-stack systems" />
+  <img src="./assets/hero.svg" width="100%" alt="Harshel Srivatsava — Software Engineer building AI agents and full-stack systems" />
 </p>
 
 <p align="center">
-  <a href="mailto:harshel333@gmail.com"><img src="https://img.shields.io/badge/LET'S_TALK-Email_Harshel-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Harshel"/></a>
-  <a href="https://github.com/Harshel17?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-My_Repositories-111827?style=for-the-badge&logo=github&logoColor=white" alt="Explore repositories"/></a>
+  <a href="mailto:harshel333@gmail.com"><img src="https://img.shields.io/badge/Email-Harshel-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Harshel"/></a>
+  <a href="https://github.com/Harshel17?tab=repositories"><img src="https://img.shields.io/badge/View-Projects-111827?style=for-the-badge&logo=github&logoColor=white" alt="View projects"/></a>
+  <img src="https://img.shields.io/badge/Open_to-Engineering_Roles-047857?style=for-the-badge" alt="Open to engineering roles"/>
 </p>
 
-## Builder first. Engineer always.
+## Software engineer with a founder’s ownership
 
-I’m a software engineer who has taken products from a blank page to real users. I built and launched **OGym** as a solo founder, then carried that product ownership into AI agents, operational platforms, and full-stack systems.
+I’ve taken products from a blank page to real users. I built and launched **OGym** as a solo founder, then brought the same end-to-end ownership to AI agents, operational platforms, and full-stack systems.
 
-My work sits where software becomes useful: **understanding the workflow, designing the system, building the product, handling failure, and measuring the result.**
+I’m strongest where the problem is still unclear: **understand the workflow, design the system, ship the product, handle failure, and measure the outcome.**
 
 <table>
   <tr>
@@ -22,40 +23,40 @@ My work sits where software becomes useful: **understanding the workflow, design
   </tr>
 </table>
 
-## Work I’m proud of
+## Selected work
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### 🏋️ OGym
-#### Built from zero to paying customers
+#### Zero to paying customers
 
-An AI-powered, multi-tenant gym management and fitness product with a web application, App Store mobile app, member experience, owner dashboard, authentication, and cloud infrastructure.
+An AI-powered, multi-tenant gym management and fitness product spanning a web application, App Store mobile app, member experience, owner dashboard, authentication, and cloud infrastructure.
 
-**Impact**
+**Outcome**
 - 2 paying B2B gyms
 - 50+ active members
 - 200+ mobile downloads
-- Built through direct conversations with gym owners and members
+- Shaped through direct conversations with gym owners and members
 
-**System:** `Django` `React` `PostgreSQL` `AWS` `OAuth 2.0` `MCP`
+**Stack:** `Django` `React` `PostgreSQL` `AWS` `OAuth 2.0` `MCP`
 
 </td>
 <td width="50%" valign="top">
 
 ### 📊 [Agent Economics →](https://github.com/Harshel17/agent-economics)
-#### Measure AI by outcomes, not token counts
+#### Measure AI by outcomes
 
-A cost and value layer for production AI agents. It attributes model and infrastructure spend to executions, successful business outcomes, confidence, and optimization opportunities.
+A cost-and-value layer for production AI agents. It attributes model and infrastructure spend to executions, successful business outcomes, confidence, and optimization opportunities.
 
-**Impact**
+**Outcome**
 - $11,200 attributable monthly cost
 - 25,000 agent runs
 - 15,500 qualified outcomes
 - **$0.72 per successful outcome**
 
-**System:** `FastAPI` `React` `TypeScript` `SQLAlchemy` `Telemetry`
+**Stack:** `FastAPI` `React` `TypeScript` `SQLAlchemy` `Telemetry`
 
 </td>
 </tr>
@@ -63,42 +64,42 @@ A cost and value layer for production AI agents. It attributes model and infrast
 <td width="50%" valign="top">
 
 ### 🚗 ReserveGuard
-#### Recover a reservation before it fails
+#### Recover before failure
 
-A multi-party operations platform that predicts fulfillment risk, simulates recovery strategies, coordinates renters, customers and managers, and supports voice conversations, approvals, human takeover, and audit trails.
+A multi-party operations platform that predicts reservation risk, simulates recovery strategies, coordinates renters, customers and managers, and supports voice conversations, approvals, human takeover, and audit trails.
 
-**Impact**
+**Outcome**
 - Modeled 3 branches and 58 vehicles
-- Tested cross-branch, upgrade and early-return strategies
+- Tested cross-branch, upgrade, and early-return strategies
 - Recovered a seeded incident from **13% confidence to 86% on track**
 
-**System:** `FastAPI` `React` `SQLAlchemy` `Voice Agents` `Decision Systems`
+**Stack:** `FastAPI` `React` `SQLAlchemy` `Voice Agents` `Decision Systems`
 
 </td>
 <td width="50%" valign="top">
 
 ### 🔎 [Meridian →](https://github.com/Harshel17/meridian-demo)
-#### Make every agent run economically observable
+#### Make agent runs observable
 
 A seven-step sales-research agent that sends execution, infrastructure, and business-outcome telemetry into Agent Economics—from prospect research to measurable value.
 
-**Impact**
+**Outcome**
 - End-to-end agent → telemetry → economics workflow
 - Step-level execution and infrastructure attribution
 - Outcome verification and optimization evidence
 
-**System:** `Python` `FastAPI` `React` `Agent Workflows` `Telemetry`
+**Stack:** `Python` `FastAPI` `React` `Agent Workflows` `Telemetry`
 
 </td>
 </tr>
 </table>
 
-## What I bring to an engineering team
+## What I bring
 
-| Product judgment | Systems engineering | Applied AI | Ownership |
-|---|---|---|---|
-| Find the actual workflow problem before building | Design APIs, data models, permissions and multi-tenant boundaries | Build agents with tools, context, evaluations and guardrails | Carry work from ambiguity through deployment and iteration |
-| Translate user friction into concrete product behavior | Debug production auth, state, integration and performance failures | Connect agent behavior to observable business outcomes | Communicate tradeoffs and keep the system understandable |
+- **Product judgment** — find the actual workflow problem before building and translate user friction into concrete behavior
+- **Systems engineering** — design APIs, data models, permissions, and multi-tenant boundaries; debug production auth, state, integration, and performance failures
+- **Applied AI** — build agents with tools, context, evaluations, guardrails, and observable business outcomes
+- **Ownership** — carry work from ambiguity through deployment, iteration, and clear communication of tradeoffs
 
 ## Engineering principles
 
@@ -124,11 +125,11 @@ A seven-step sales-research agent that sends execution, infrastructure, and busi
 
 `AI Agents` · `MCP` · `RAG` · `Tool Calling` · `Evaluations` · `LLM APIs` · `OAuth 2.0` · `JWT` · `RBAC` · `Multi-tenancy` · `CI/CD`
 
-## Now
+## Currently
 
 - Building mature multi-agent products for real operational workflows
 - Exploring **Software Engineering, Applied AI, Forward Deployed, and Full-Stack** roles
-- Best suited to important, ambiguous problems that need both engineering depth and product ownership
+- Best suited to important, ambiguous problems needing engineering depth and product ownership
 - M.S. in Computer Science — University of Alabama at Birmingham
 
 ---
