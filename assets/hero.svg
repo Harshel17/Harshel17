@@ -1,23 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470">
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#05080d"/><stop offset="1" stop-color="#0b1320"/></linearGradient>
- <linearGradient id="line" x1="0" x2="1"><stop stop-color="#00f5d4"/><stop offset=".55" stop-color="#38bdf8"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
- <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#173044" stroke-width=".5"/></pattern>
- <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#02040a"/><stop offset=".48" stop-color="#0a1528"/><stop offset="1" stop-color="#27090d"/></linearGradient>
+ <linearGradient id="steel" x1="0" x2="1"><stop stop-color="#dbe8f4"/><stop offset=".3" stop-color="#fff"/><stop offset=".55" stop-color="#71849a"/><stop offset=".8" stop-color="#fff"/><stop offset="1" stop-color="#8091a4"/></linearGradient>
+ <linearGradient id="energy" x1="0" x2="1"><stop stop-color="#19d7ff"/><stop offset=".55" stop-color="#f8fafc"/><stop offset="1" stop-color="#ff3448"/></linearGradient>
+ <radialGradient id="reactor"><stop stop-color="#fff"/><stop offset=".16" stop-color="#5eeaff"/><stop offset=".48" stop-color="#087da5"/><stop offset="1" stop-color="#07101e"/></radialGradient>
+ <pattern id="hex" width="56" height="48" patternUnits="userSpaceOnUse"><path d="M14 1h28l14 23-14 23H14L0 24Z" fill="none" stroke="#32506e" stroke-width=".5"/></pattern>
+ <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
-<rect width="1200" height="460" rx="22" fill="url(#bg)"/><rect width="1200" height="460" rx="22" fill="url(#grid)" opacity=".55"/>
-<path d="M0 2H1200" stroke="url(#line)" stroke-width="4"/>
-<circle cx="35" cy="35" r="5" fill="#ff5f57"/><circle cx="53" cy="35" r="5" fill="#febc2e"/><circle cx="71" cy="35" r="5" fill="#28c840"/>
-<text x="94" y="40" fill="#64748b" font-family="monospace" font-size="12">HARSHEL_OS  /  MISSION_CONTROL  /  BUILD_2026</text>
-<circle cx="1110" cy="35" r="4" fill="#00f5d4" filter="url(#glow)"/><text x="1122" y="40" fill="#00f5d4" font-family="monospace" font-size="11">ONLINE</text>
-<text x="64" y="105" fill="#00f5d4" font-family="monospace" font-size="13" letter-spacing="3">FOUNDER-TRAINED ENGINEER</text>
-<text x="60" y="174" fill="#f8fafc" font-family="Arial, sans-serif" font-weight="800" font-size="56">I BUILD SYSTEMS THAT</text>
-<text x="60" y="236" fill="url(#line)" font-family="Arial, sans-serif" font-weight="800" font-size="56">SURVIVE THE REAL WORLD.</text>
-<text x="64" y="280" fill="#94a3b8" font-family="monospace" font-size="16">advanced AI agents  ×  operational software  ×  measurable outcomes</text>
-<line x1="64" y1="310" x2="1135" y2="310" stroke="#173044"/>
-<g font-family="monospace">
- <text x="64" y="348" fill="#64748b" font-size="11">PROOF_01</text><text x="64" y="382" fill="#f8fafc" font-size="24" font-weight="700">2 PAYING GYMS</text><text x="64" y="406" fill="#00f5d4" font-size="12">FOUNDER → PRODUCTION</text>
- <text x="354" y="348" fill="#64748b" font-size="11">PROOF_02</text><text x="354" y="382" fill="#f8fafc" font-size="24" font-weight="700">50+ MEMBERS</text><text x="354" y="406" fill="#38bdf8" font-size="12">REAL USERS → REAL FAILURES</text>
- <text x="644" y="348" fill="#64748b" font-size="11">PROOF_03</text><text x="644" y="382" fill="#f8fafc" font-size="24" font-weight="700">13% → 86%</text><text x="644" y="406" fill="#818cf8" font-size="12">RECOVERY CONFIDENCE</text>
- <text x="934" y="348" fill="#64748b" font-size="11">PROOF_04</text><text x="934" y="382" fill="#f8fafc" font-size="24" font-weight="700">$0.72</text><text x="934" y="406" fill="#d946ef" font-size="12">PER SUCCESSFUL OUTCOME</text>
-</g></svg>
+<rect width="1200" height="470" rx="22" fill="url(#sky)"/><rect width="1200" height="470" rx="22" fill="url(#hex)" opacity=".25"/>
+<path d="M0 0H1200L1040 32H160Z" fill="url(#energy)"/><path d="M0 470L330 386H870L1200 470Z" fill="#03060b" opacity=".75"/>
+<path d="M0 250L370 220M1200 250L830 220" stroke="#ff3448" opacity=".38"/><path d="M0 310L370 250M1200 310L830 250" stroke="#19d7ff" opacity=".38"/>
+<g transform="translate(1040 104)"><circle r="58" fill="none" stroke="#ef3340" stroke-width="2"/><circle r="42" fill="none" stroke="#19d7ff" stroke-width="2" stroke-dasharray="6 5"/><circle r="25" fill="url(#reactor)" filter="url(#glow)"/><path d="M0-15 15 10H-15Z" fill="none" stroke="#08131f" stroke-width="4"/></g>
+<text x="62" y="88" fill="#f6c453" font-family="monospace" font-size="13" letter-spacing="4">MISSION PROFILE / HARSHEL SRIVATSAVA</text>
+<text x="58" y="166" fill="url(#steel)" font-family="Arial" font-size="62" font-weight="900" letter-spacing="1">ENGINEERING FOR</text>
+<text x="58" y="234" fill="url(#energy)" font-family="Arial" font-size="62" font-weight="900" letter-spacing="1">THE REAL WORLD.</text>
+<text x="62" y="278" fill="#b8c7d9" font-family="Arial" font-size="18">Founder-trained software engineer building controlled AI systems.</text>
+<rect x="62" y="312" width="600" height="2" fill="url(#energy)"/>
+<g font-family="monospace"><text x="62" y="350" fill="#7dd3fc" font-size="12">DEPLOYED</text><text x="62" y="384" fill="#fff" font-size="23" font-weight="700">REAL CUSTOMERS</text>
+<text x="320" y="350" fill="#f6c453" font-size="12">OPERATING MODE</text><text x="320" y="384" fill="#fff" font-size="23" font-weight="700">END-TO-END OWNER</text>
+<text x="650" y="350" fill="#ff6b76" font-size="12">SPECIALIZATION</text><text x="650" y="384" fill="#fff" font-size="23" font-weight="700">AI AGENT SYSTEMS</text></g>
+<text x="62" y="432" fill="#64748b" font-family="monospace" font-size="11">BUILD / CONTROL / OBSERVE / RECOVER / MEASURE</text>
+</svg>
