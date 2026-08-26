@@ -105,6 +105,10 @@ A seven-step sales-research agent that sends execution, infrastructure, and busi
 - **Applied AI** — build agents with tools, context, evaluations, guardrails, and observable business outcomes
 - **Ownership** — carry work from ambiguity through deployment, iteration, and clear communication of tradeoffs
 
+<p align="center">
+  <img src="./assets/engineering-loop.svg" width="100%" alt="Harshel's engineering loop from workflow understanding to measurable outcome" />
+</p>
+
 ## Engineering principles
 
 1. **The workflow is the product.** A model response is only one step in a useful system.
