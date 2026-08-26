@@ -1,92 +1,110 @@
-<p align="center"><img src="./assets/hero.svg" width="100%" alt="Harshel Srivatsava — builder journey from OGym to agent systems"/></p>
+<p align="center"><img src="./assets/hero.svg" width="100%" alt="Harshel Srivatsava — founder-trained engineer building production AI systems"/></p>
 
 <p align="center">
-  <a href="mailto:harshel333@gmail.com"><img src="https://img.shields.io/badge/Email-Harshel-0F766E?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://github.com/Harshel17?tab=repositories"><img src="https://img.shields.io/badge/Explore-My_Work-0369A1?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <img src="https://img.shields.io/badge/Open_to-Engineering_Roles-6D28D9?style=for-the-badge"/>
+  <a href="mailto:harshel333@gmail.com"><img src="https://img.shields.io/badge/START_A_CONVERSATION-00F5D4?style=for-the-badge&labelColor=05080D"/></a>
+  <a href="https://github.com/Harshel17?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE_THE_BUILDS-38BDF8?style=for-the-badge&labelColor=05080D"/></a>
 </p>
 
-## The short version
+### `ORIGIN.log`
 
-I built **OGym for 2.5 years**—from the first idea through a live web product, an App Store release, paying gyms, active members, and the production failures that only appear after people depend on your software.
+I learned production the expensive way: by spending **2.5 years building OGym from a blank page**, talking to gym owners, shipping web and mobile products, onboarding paying customers, and fixing the failures that appeared after real people depended on the software.
 
-That changed how I approach AI. I’m not interested in agents that only produce convincing demos. I build the surrounding system: **state, tools, permissions, evaluation, human control, recovery, telemetry, and a measurable outcome.**
+That experience shaped the systems I build now. An agent is not a chat window—it is a production actor that needs boundaries, evidence, recovery, and an outcome worth paying for.
 
-<p align="center"><img src="./assets/project-showcase.svg" width="100%" alt="Evolution from OGym to controlled and measurable agent systems"/></p>
+<p align="center"><img src="./assets/project-showcase.svg" width="100%" alt="Evolution from OGym to controlled and measurable AI-agent systems"/></p>
 
-## Four projects, one engineering direction
+### `ACTIVE_SYSTEMS / 04`
 
-### 🏋️ OGym — learning what “production” actually means
+<table>
+<tr>
+<td width="50%" valign="top">
 
-An AI-powered, multi-tenant gym platform built from direct conversations with gym owners and members.
+#### ReserveGuard · operational recovery
 
-- Shipped a live web application and App Store mobile app
-- Reached **2 paying B2B gyms, 50+ active members, and 200+ downloads**
-- Worked through multi-tenancy, OAuth, JWT, production database migrations, cloud deployment, and B2B/B2C product decisions
-- Built with `Django`, `React`, `PostgreSQL`, `AWS`, `OAuth 2.0`, and `MCP`
+A rental-operations simulator where agents coordinate customers, vehicles, branches, transfers, and managers before a reservation fails.
 
-### 🚗 ReserveGuard — agents operating inside a real workflow
+**Signal:** seeded incident recovered from **13% confidence to 86% on track**.
 
-Rental reservations fail because inventory, returns, cleaning, transfers, customers, and managers all move independently. ReserveGuard models that operational state and coordinates recovery before pickup.
+`FastAPI` `React` `SQLAlchemy` `Voice` `Policy`
 
-- Simulates same-branch, upgrade, transfer, alternate-branch, and early-return strategies
-- Supports customer and renter conversations, voice, manager approval, takeover, and audit history
-- Recovered a seeded incident from **13% confidence to 86% on track**
-- Built with `FastAPI`, `React`, `SQLAlchemy`, voice agents, and deterministic policy logic
+</td>
+<td width="50%" valign="top">
 
-### 🔎 [Meridian](https://github.com/Harshel17/meridian-demo) — making the agent observable
+#### [Meridian](https://github.com/Harshel17/meridian-demo) · agent observability
 
-A seven-step sales-research agent where every step produces an execution, infrastructure, and business-outcome trail.
+A seven-stage sales-research agent that exposes every execution step, infrastructure dependency, evaluation, and business outcome.
 
-- Shows what the agent did, which resources it used, what it cost, and whether the result passed evaluation
-- Connects agent execution to attribution instead of treating the workflow as a black box
-- Built with `Python`, `FastAPI`, `React`, workflow orchestration, and telemetry
+**Signal:** the workflow is inspectable end-to-end—not a black box.
 
-### 📊 [Agent Economics](https://github.com/Harshel17/agent-economics) — making the outcome measurable
+`Python` `Telemetry` `Evaluation` `Orchestration`
 
-A cost-and-value layer that connects model and cloud spend to successful business outcomes.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-- Maps **$11,200** in attributable cost across **25,000 runs** and **15,500 qualified outcomes**
-- Calculates **$0.72 per successful outcome**
-- Surfaces optimization evidence, attribution confidence, evaluation, approval, and post-change verification
-- Built with `FastAPI`, `React`, `TypeScript`, `SQLAlchemy`, and telemetry ingestion
+#### [Agent Economics](https://github.com/Harshel17/agent-economics) · outcome intelligence
 
-## What is consistent across my work
+Connects model and cloud spending to the unit economics of successful agent work.
 
-| I look for | I build |
-|---|---|
-| The real failure point inside the workflow | Explicit state, boundaries, and recovery paths |
-| Actions an agent should and should not take | Tool contracts, permissions, policy, and approval |
-| Evidence that explains what happened | Evaluation, telemetry, attribution, and audit trails |
-| A result the business actually cares about | Cost, confidence, successful outcomes, and iteration |
+**Signal:** **$11,200 / 25,000 runs / 15,500 outcomes = $0.72 per successful outcome.**
 
-## Technology map
+`FastAPI` `TypeScript` `Attribution` `FinOps`
+
+</td>
+<td width="50%" valign="top">
+
+#### OGym · founder-built production system
+
+Multi-tenant gym platform built from customer discovery through App Store deployment.
+
+**Signal:** **2 paying gyms · 50+ active members · 200+ downloads.**
+
+`Django` `React` `PostgreSQL` `AWS` `OAuth`
+
+</td>
+</tr>
+</table>
+
+### `ENGINEERING_DNA`
+
+```text
+observe the workflow  →  locate the failure  →  model explicit state
+         ↓
+define tool contracts → add policy + human control → ship the smallest real system
+         ↓
+evaluate behavior     →  trace cost + outcome      → recover, learn, iterate
+```
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,ts,java,fastapi,django,react,nextjs,postgres,mongodb,aws,docker,git,github,vscode&theme=dark&perline=14" alt="Python, TypeScript, Java, FastAPI, Django, React, Next.js, PostgreSQL, MongoDB, AWS, Docker, Git, GitHub, and VS Code" />
+<img src="https://skillicons.dev/icons?i=python,ts,java,fastapi,django,react,nextjs,postgres,mongodb,aws,docker,git&theme=dark&perline=12" alt="Core technologies"/>
 </p>
 
 <p align="center">
-  <code>AI Agents</code> · <code>MCP</code> · <code>RAG</code> · <code>Tool Calling</code> · <code>Evaluations</code> · <code>OAuth 2.0</code> · <code>JWT</code> · <code>RBAC</code> · <code>Multi-tenancy</code>
+<code>AGENT SYSTEMS</code> · <code>MCP</code> · <code>RAG</code> · <code>TOOL CALLING</code> · <code>EVALUATION</code> · <code>RBAC</code> · <code>MULTI-TENANCY</code>
 </p>
-
-## Engineering footprint
-
-<p align="center">
-  <img src="./assets/engineering-footprint.svg" width="100%" alt="Harshel's verified engineering footprint" />
-</p>
-
-## Right now
-
-- Building mature multi-agent products for operational workflows
-- Exploring **Software Engineering, Applied AI, Forward Deployed, and Full-Stack** roles
-- Best when the problem is ambiguous and needs both engineering depth and product ownership
-- M.S. in Computer Science — University of Alabama at Birmingham
 
 ---
 
-<p align="center">
-  <strong>Give me a messy workflow, not a toy problem.</strong><br/>
-  I’ll map where it breaks, build the system around it, and show you what changed.<br/><br/>
-  <a href="mailto:harshel333@gmail.com">harshel333@gmail.com</a>
-</p>
+<table>
+<tr>
+<td width="65%" valign="top">
+
+### `CURRENT_MISSION`
+
+Building mature multi-agent products for operational workflows and looking for **Software Engineering, Applied AI, Forward Deployed, and Full-Stack** teams where ambiguous problems need both engineering depth and product ownership.
+
+</td>
+<td width="35%" valign="top">
+
+### `COORDINATES`
+
+**Harshel Srivatsava**  
+M.S. Computer Science · UAB  
+[Email](mailto:harshel333@gmail.com) · [Repositories](https://github.com/Harshel17?tab=repositories)
+
+</td>
+</tr>
+</table>
+
+<p align="center"><strong>Give me a messy workflow, not a toy problem.</strong><br/>I’ll map where it breaks, build the system around it, and show you what changed.</p>
