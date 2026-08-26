@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Harshel Srivatsava — founder-trained engineer building production AI systems"/>
+  <img src="./assets/hero.svg" width="100%" alt="Harshel Srivatsava — building production software and controlled AI systems"/>
 </p>
 
 <p align="center">
@@ -8,12 +8,11 @@
 </p>
 
 <p align="center">
-  <img src="./assets/systems-universe.svg" width="100%" alt="Harshel's systems universe: OGym, ReserveGuard, Meridian, and Agent Economics connected through an AI control plane"/>
+  <img src="./assets/product-evidence-wall.svg" width="100%" alt="Product evidence from OGym, ReserveGuard, and Agent Economics"/>
 </p>
 
 <p align="center">
-  <strong>I went from building a product for real customers to building the control plane around production AI.</strong><br/>
-  Agents with explicit state, bounded tools, human approval, evaluation, recovery, telemetry, and measurable outcomes.
+  <strong>From a founder-built product used by paying businesses to AI agents with control, recovery, telemetry, and measurable outcomes.</strong>
 </p>
 
 <p align="center">
