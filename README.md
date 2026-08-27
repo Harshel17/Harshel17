@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/product-evidence-wall.svg" width="100%" alt="Product evidence from OGym, ReserveGuard, and Agent Economics"/>
+  <img src="./assets/product-evidence-wall.svg" width="100%" alt="Engineering constellation connecting OGym, ReserveGuard, Meridian, and Agent Economics"/>
 </p>
 
 <p align="center">
