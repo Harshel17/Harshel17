@@ -1,92 +1,115 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
-<title id="title">Harshel's engineering constellation</title>
-<desc id="desc">A graphical map of four systems: OGym, ReserveGuard, Meridian, and Agent Economics.</desc>
+<title id="title">Animated agent workflow by Harshel Srivatsava</title>
+<desc id="desc">A colorful three-dimensional workflow showing code entering an AI orchestrator, moving through tools and evaluation, and producing measured outcomes.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#05070B"/><stop offset=".52" stop-color="#080C13"/><stop offset="1" stop-color="#07121B"/></linearGradient>
-  <linearGradient id="line" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5EEAD4"/><stop offset=".48" stop-color="#38BDF8"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
-  <radialGradient id="core"><stop stop-color="#E6FFFB"/><stop offset=".18" stop-color="#5EEAD4"/><stop offset=".5" stop-color="#0EA5E9" stop-opacity=".38"/><stop offset="1" stop-color="#0EA5E9" stop-opacity="0"/></radialGradient>
-  <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <filter id="soft"><feGaussianBlur stdDeviation="35"/></filter>
+  <linearGradient id="space" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090825"/><stop offset=".46" stop-color="#111039"/><stop offset="1" stop-color="#071E32"/></linearGradient>
+  <radialGradient id="aura"><stop stop-color="#8B5CF6" stop-opacity=".42"/><stop offset=".55" stop-color="#2563EB" stop-opacity=".12"/><stop offset="1" stop-color="#090825" stop-opacity="0"/></radialGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#67E8F9"/><stop offset="1" stop-color="#2563EB"/></linearGradient>
+  <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F0ABFC"/><stop offset=".5" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4F46E5"/></linearGradient>
+  <linearGradient id="coral" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FDBA74"/><stop offset="1" stop-color="#F43F5E"/></linearGradient>
+  <linearGradient id="lime" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#BEF264"/><stop offset="1" stop-color="#10B981"/></linearGradient>
+  <linearGradient id="metric" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#16163F"/><stop offset="1" stop-color="#101B36"/></linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="35"/></filter>
+  <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#02030F" flood-opacity=".7"/></filter>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>
+    .floatA{animation:floatA 4.8s ease-in-out infinite}.floatB{animation:floatB 5.6s ease-in-out infinite}.pulse{animation:pulse 2.2s ease-in-out infinite}.blink{animation:blink 1s steps(1) infinite}.code1{animation:code 3.4s ease-in-out infinite}.code2{animation:code 3.4s .35s ease-in-out infinite}.code3{animation:code 3.4s .7s ease-in-out infinite}
+    @keyframes floatA{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}@keyframes floatB{0%,100%{transform:translateY(0)}50%{transform:translateY(8px)}}@keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}@keyframes blink{0%,48%{opacity:1}49%,100%{opacity:0}}@keyframes code{0%,100%{opacity:.35}45%,70%{opacity:1}}
+  </style>
 </defs>
-<rect width="1200" height="680" rx="28" fill="url(#bg)"/>
-<circle cx="188" cy="88" r="120" fill="#14B8A6" opacity=".06" filter="url(#soft)"/>
-<circle cx="1050" cy="590" r="150" fill="#8B5CF6" opacity=".07" filter="url(#soft)"/>
-<g fill="#94A3B8" opacity=".18">
-  <circle cx="70" cy="170" r="1.5"/><circle cx="1090" cy="116" r="1.5"/><circle cx="1010" cy="260" r="1"/><circle cx="150" cy="590" r="1"/><circle cx="910" cy="55" r="1"/>
+
+<rect width="1200" height="680" rx="30" fill="url(#space)"/>
+<ellipse cx="603" cy="312" rx="410" ry="280" fill="url(#aura)"/>
+<circle cx="1040" cy="105" r="95" fill="#06B6D4" opacity=".08" filter="url(#blur)"/>
+<circle cx="160" cy="480" r="110" fill="#EC4899" opacity=".08" filter="url(#blur)"/>
+<g fill="#C4B5FD" opacity=".35"><circle cx="65" cy="174" r="1.5"/><circle cx="1140" cy="212" r="1.5"/><circle cx="987" cy="58" r="1"/><circle cx="316" cy="92" r="1.5"/><circle cx="1082" cy="456" r="1"/></g>
+
+<text x="54" y="57" fill="#A5B4FC" font-family="Inter,Segoe UI,Arial" font-size="11" font-weight="700" letter-spacing="3">FROM CODE TO CONTROLLED OUTCOME</text>
+<text x="54" y="101" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial" font-size="32" font-weight="700">I build agents that can act, prove, and improve.</text>
+<text x="54" y="130" fill="#94A3B8" font-family="Inter,Segoe UI,Arial" font-size="14">A production loop—not a chatbot.</text>
+
+<!-- workflow rails -->
+<path id="rail1" d="M300 289 C385 289 407 316 487 316" fill="none" stroke="#38BDF8" stroke-opacity=".32" stroke-width="3"/>
+<path id="rail2" d="M645 300 C722 240 756 222 833 231" fill="none" stroke="#C084FC" stroke-opacity=".36" stroke-width="3"/>
+<path id="rail3" d="M645 340 C724 392 761 407 840 385" fill="none" stroke="#FB7185" stroke-opacity=".34" stroke-width="3"/>
+<path id="rail4" d="M946 275 C1000 298 1006 326 1038 339" fill="none" stroke="#34D399" stroke-opacity=".38" stroke-width="3"/>
+<path id="rail5" d="M946 376 C994 361 1009 350 1038 339" fill="none" stroke="#34D399" stroke-opacity=".38" stroke-width="3"/>
+
+<!-- moving packets -->
+<g filter="url(#glow)">
+  <circle r="5" fill="#67E8F9"><animateMotion dur="2.4s" repeatCount="indefinite"><mpath href="#rail1"/></animateMotion></circle>
+  <circle r="4" fill="#E879F9"><animateMotion dur="2.7s" begin=".7s" repeatCount="indefinite"><mpath href="#rail2"/></animateMotion></circle>
+  <circle r="4" fill="#FB7185"><animateMotion dur="2.9s" begin="1.1s" repeatCount="indefinite"><mpath href="#rail3"/></animateMotion></circle>
+  <circle r="5" fill="#6EE7B7"><animateMotion dur="2.2s" begin=".4s" repeatCount="indefinite"><mpath href="#rail4"/></animateMotion></circle>
 </g>
 
-<text x="56" y="63" fill="#5EEAD4" font-family="Inter,Segoe UI,Arial" font-size="11" font-weight="700" letter-spacing="3">ENGINEERING CONSTELLATION / 2026</text>
-<text x="56" y="105" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial" font-size="31" font-weight="650">Four systems. One operating instinct.</text>
-<text x="56" y="134" fill="#7F8B9A" font-family="Inter,Segoe UI,Arial" font-size="14">Find the failure point · build the control · prove the outcome</text>
-
-<!-- connection graph -->
-<g fill="none" stroke-linecap="round">
-  <path d="M305 275 C410 275 428 329 520 334" stroke="#1E5264" stroke-width="2"/>
-  <path d="M895 275 C790 275 772 329 680 334" stroke="#263E70" stroke-width="2"/>
-  <path d="M305 505 C410 505 434 385 520 360" stroke="#254D54" stroke-width="2"/>
-  <path d="M895 505 C790 505 766 385 680 360" stroke="#403665" stroke-width="2"/>
-  <path d="M340 275 C445 275 455 315 535 325" stroke="url(#line)" stroke-width="1.5" opacity=".7" stroke-dasharray="3 12"/>
-  <path d="M860 505 C760 505 748 388 670 365" stroke="url(#line)" stroke-width="1.5" opacity=".7" stroke-dasharray="3 12"/>
+<!-- code studio isometric -->
+<g class="floatA" filter="url(#shadow)">
+  <path d="M82 224L260 194 310 222 130 255Z" fill="#252451" stroke="#4F46E5" stroke-opacity=".65"/>
+  <path d="M130 255L310 222V360L130 397Z" fill="#101632" stroke="#3730A3" stroke-opacity=".7"/>
+  <path d="M82 224L130 255V397L82 363Z" fill="#0C1027" stroke="#312E81"/>
+  <circle cx="153" cy="275" r="5" fill="#FB7185"/><circle cx="170" cy="272" r="5" fill="#FBBF24"/><circle cx="187" cy="269" r="5" fill="#34D399"/>
+  <g stroke-linecap="round" stroke-width="7">
+    <path class="code1" d="M154 308L223 295" stroke="#67E8F9"/>
+    <path class="code2" d="M154 330L270 307" stroke="#A78BFA"/>
+    <path class="code3" d="M154 352L240 335" stroke="#FB7185"/>
+  </g>
+  <rect class="blink" x="246" y="326" width="3" height="17" transform="rotate(-11 246 326)" fill="#FFFFFF"/>
+  <text x="113" y="428" fill="#E0E7FF" font-family="Inter,Segoe UI,Arial" font-size="12" font-weight="700" letter-spacing="1.5">01 / CODE + CONTEXT</text>
 </g>
 
-<!-- center -->
-<circle cx="600" cy="345" r="105" fill="url(#core)" opacity=".32"/>
-<circle cx="600" cy="345" r="67" fill="#071018" stroke="url(#line)" stroke-width="1.5"/>
-<circle cx="600" cy="345" r="51" fill="#091822" stroke="#5EEAD4" stroke-opacity=".22"/>
-<path d="M578 361V329l22-13 22 13v32l-22 13z" fill="none" stroke="#E2E8F0" stroke-width="2"/>
-<circle cx="600" cy="345" r="7" fill="#5EEAD4" filter="url(#glow)"/>
-<path d="M600 338V319M607 345h20M600 352v19M593 345h-20" stroke="#5EEAD4" stroke-width="1.5"/>
-<text x="600" y="433" text-anchor="middle" fill="#F1F5F9" font-family="Inter,Segoe UI,Arial" font-size="12" font-weight="700" letter-spacing="2">BUILD → CONTROL → MEASURE</text>
-
-<!-- node helper cards -->
-<!-- OGym -->
-<g transform="translate(56 201)">
-  <rect width="250" height="148" rx="22" fill="#0B1119" stroke="#22303C"/>
-  <circle cx="46" cy="45" r="25" fill="#0E2425" stroke="#2DD4BF" stroke-opacity=".5"/>
-  <g transform="translate(28 27)" stroke="#5EEAD4" stroke-width="2.3" stroke-linecap="round"><path d="M8 14v8M28 14v8M3 17v2M33 17v2M8 18h20"/><path d="M12 10c3-4 9-4 12 0" opacity=".65"/></g>
-  <text x="82" y="39" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial" font-size="18" font-weight="650">OGym</text>
-  <text x="82" y="60" fill="#64748B" font-family="Inter,Segoe UI,Arial" font-size="10" letter-spacing="1.4">PRODUCT / CUSTOMERS</text>
-  <text x="24" y="104" fill="#E2E8F0" font-family="Inter,Segoe UI,Arial" font-size="13">From zero to paying gyms</text>
-  <text x="24" y="128" fill="#5EEAD4" font-family="Inter,Segoe UI,Arial" font-size="12" font-weight="700">2 B2B · 50+ users · App Store</text>
+<!-- orchestrator 3D core -->
+<g class="pulse" filter="url(#glow)">
+  <ellipse cx="566" cy="339" rx="101" ry="44" fill="#7C3AED" opacity=".16"/>
+</g>
+<g filter="url(#shadow)">
+  <path d="M487 279L564 237 646 278 566 323Z" fill="url(#violet)" stroke="#F0ABFC" stroke-opacity=".65"/>
+  <path d="M487 279L566 323V403L487 358Z" fill="#36206F" stroke="#7C3AED"/>
+  <path d="M566 323L646 278V358L566 403Z" fill="#231A5B" stroke="#6366F1"/>
+  <circle cx="566" cy="292" r="25" fill="#FFFFFF" opacity=".14"/>
+  <path d="M553 293l10 10 19-24" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="566" y="433" text-anchor="middle" fill="#EDE9FE" font-family="Inter,Segoe UI,Arial" font-size="12" font-weight="700" letter-spacing="1.5">02 / ORCHESTRATE</text>
 </g>
 
-<!-- ReserveGuard -->
-<g transform="translate(894 201)">
-  <rect width="250" height="148" rx="22" fill="#0B1119" stroke="#22303C"/>
-  <circle cx="46" cy="45" r="25" fill="#10202A" stroke="#38BDF8" stroke-opacity=".5"/>
-  <g transform="translate(28 27)" fill="none" stroke="#7DD3FC" stroke-width="2"><path d="M18 3l13 6v9c0 8-5 13-13 16C10 31 5 26 5 18V9z"/><path d="M12 18l4 4 8-9"/></g>
-  <text x="82" y="39" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial" font-size="18" font-weight="650">ReserveGuard</text>
-  <text x="82" y="60" fill="#64748B" font-family="Inter,Segoe UI,Arial" font-size="10" letter-spacing="1.4">RECOVERY / APPROVALS</text>
-  <text x="24" y="104" fill="#E2E8F0" font-family="Inter,Segoe UI,Arial" font-size="13">Agents coordinate the save</text>
-  <text x="24" y="128" fill="#7DD3FC" font-family="Inter,Segoe UI,Arial" font-size="12" font-weight="700">13% risk → 86% on track</text>
+<!-- tool module -->
+<g class="floatB" filter="url(#shadow)">
+  <path d="M804 190L893 166 968 206 878 232Z" fill="url(#cyan)" stroke="#67E8F9" stroke-opacity=".6"/>
+  <path d="M878 232L968 206V286L878 314Z" fill="#103F6B" stroke="#0EA5E9"/>
+  <path d="M804 190L878 232V314L804 271Z" fill="#122A54" stroke="#2563EB"/>
+  <g transform="translate(868 202)" fill="none" stroke="#FFFFFF" stroke-width="2.4"><circle cx="0" cy="0" r="10"/><path d="M0-17v7M0 10v7M-17 0h7M10 0h7"/></g>
+  <text x="881" y="340" text-anchor="middle" fill="#BAE6FD" font-family="Inter,Segoe UI,Arial" font-size="12" font-weight="700" letter-spacing="1.5">03 / TOOLS + ACTIONS</text>
 </g>
 
-<!-- Meridian -->
-<g transform="translate(56 431)">
-  <rect width="250" height="148" rx="22" fill="#0B1119" stroke="#22303C"/>
-  <circle cx="46" cy="45" r="25" fill="#102329" stroke="#22D3EE" stroke-opacity=".5"/>
-  <g transform="translate(28 27)" fill="none" stroke="#67E8F9" stroke-width="2"><circle cx="7" cy="18" r="4"/><circle cx="29" cy="8" r="4"/><circle cx="29" cy="28" r="4"/><path d="M11 16l14-6M11 20l14 6"/></g>
-  <text x="82" y="39" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial" font-size="18" font-weight="650">Meridian</text>
-  <text x="82" y="60" fill="#64748B" font-family="Inter,Segoe UI,Arial" font-size="10" letter-spacing="1.4">AGENTS / TELEMETRY</text>
-  <text x="24" y="104" fill="#E2E8F0" font-family="Inter,Segoe UI,Arial" font-size="13">Every step leaves evidence</text>
-  <text x="24" y="128" fill="#67E8F9" font-family="Inter,Segoe UI,Arial" font-size="12" font-weight="700">7-step observable workflow</text>
+<!-- evaluation module -->
+<g class="floatA" filter="url(#shadow)">
+  <path d="M810 354L899 327 968 366 878 395Z" fill="url(#coral)" stroke="#FDBA74" stroke-opacity=".62"/>
+  <path d="M878 395L968 366V441L878 472Z" fill="#702443" stroke="#F43F5E"/>
+  <path d="M810 354L878 395V472L810 430Z" fill="#4D2147" stroke="#DB2777"/>
+  <path d="M861 367l13 12 23-32" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="889" y="501" text-anchor="middle" fill="#FFE4E6" font-family="Inter,Segoe UI,Arial" font-size="12" font-weight="700" letter-spacing="1.5">04 / EVALUATE</text>
 </g>
 
-<!-- Agent Economics -->
-<g transform="translate(894 431)">
-  <rect width="250" height="148" rx="22" fill="#0B1119" stroke="#22303C"/>
-  <circle cx="46" cy="45" r="25" fill="#1B1830" stroke="#A78BFA" stroke-opacity=".55"/>
-  <g transform="translate(28 27)" fill="none" stroke="#C4B5FD" stroke-width="2" stroke-linecap="round"><path d="M5 29V19M14 29V13M23 29V7M32 29V3"/><path d="M4 9l8 4 9-7 11-3"/></g>
-  <text x="82" y="39" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial" font-size="17" font-weight="650">Agent Economics</text>
-  <text x="82" y="60" fill="#64748B" font-family="Inter,Segoe UI,Arial" font-size="10" letter-spacing="1.4">COST / OUTCOMES</text>
-  <text x="24" y="104" fill="#E2E8F0" font-family="Inter,Segoe UI,Arial" font-size="13">Measure what agents achieve</text>
-  <text x="24" y="128" fill="#C4B5FD" font-family="Inter,Segoe UI,Arial" font-size="12" font-weight="700">$0.72 / successful outcome</text>
+<!-- outcome prism -->
+<g filter="url(#shadow)">
+  <path d="M1027 309L1080 280 1131 309 1078 340Z" fill="url(#lime)" stroke="#D9F99D" stroke-opacity=".7"/>
+  <path d="M1027 309L1078 340V418L1027 386Z" fill="#146044" stroke="#10B981"/>
+  <path d="M1078 340L1131 309V387L1078 418Z" fill="#0D473E" stroke="#34D399"/>
+  <path d="M1055 326l18 11 28-38" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1078" y="450" text-anchor="middle" fill="#D1FAE5" font-family="Inter,Segoe UI,Arial" font-size="12" font-weight="700" letter-spacing="1.5">05 / OUTCOME</text>
 </g>
 
-<!-- footer legend -->
-<g transform="translate(422 618)">
-  <circle cx="0" cy="0" r="4" fill="#5EEAD4"/><text x="13" y="4" fill="#6B7786" font-family="Inter,Segoe UI,Arial" font-size="10" letter-spacing="1">REAL USERS</text>
-  <circle cx="116" cy="0" r="4" fill="#38BDF8"/><text x="129" y="4" fill="#6B7786" font-family="Inter,Segoe UI,Arial" font-size="10" letter-spacing="1">CONTROLLED ACTIONS</text>
-  <circle cx="289" cy="0" r="4" fill="#A78BFA"/><text x="302" y="4" fill="#6B7786" font-family="Inter,Segoe UI,Arial" font-size="10" letter-spacing="1">MEASURED VALUE</text>
+<!-- proof metrics -->
+<g transform="translate(55 557)">
+  <rect width="1090" height="87" rx="23" fill="url(#metric)" stroke="#FFFFFF" stroke-opacity=".09"/>
+  <path d="M363 17V70M726 17V70" stroke="#FFFFFF" stroke-opacity=".09"/>
+  <circle cx="37" cy="42" r="15" fill="#2DD4BF" opacity=".16"/><circle cx="37" cy="42" r="5" fill="#5EEAD4"/>
+  <text x="65" y="36" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial" font-size="22" font-weight="750">2 B2B · 50+ users</text>
+  <text x="65" y="59" fill="#8291A8" font-family="Inter,Segoe UI,Arial" font-size="11" letter-spacing="1.2">PRODUCT SHIPPED TO REAL CUSTOMERS</text>
+  <circle cx="400" cy="42" r="15" fill="#38BDF8" opacity=".16"/><path d="M394 47l6-12 6 12" fill="none" stroke="#7DD3FC" stroke-width="2"/>
+  <text x="428" y="36" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial" font-size="22" font-weight="750">13% → 86%</text>
+  <text x="428" y="59" fill="#8291A8" font-family="Inter,Segoe UI,Arial" font-size="11" letter-spacing="1.2">AGENT-DRIVEN RECOVERY</text>
+  <circle cx="763" cy="42" r="15" fill="#A78BFA" opacity=".16"/><path d="M757 47V40l6-7 6 7v7" fill="none" stroke="#C4B5FD" stroke-width="2"/>
+  <text x="791" y="36" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial" font-size="22" font-weight="750">$0.72 / outcome</text>
+  <text x="791" y="59" fill="#8291A8" font-family="Inter,Segoe UI,Arial" font-size="11" letter-spacing="1.2">MEASURABLE AGENT ECONOMICS</text>
 </g>
 </svg>
