@@ -8,12 +8,17 @@
 </p>
 
 <p align="center">
-  <img src="./assets/product-evidence-wall.svg" width="100%" alt="Engineering constellation connecting OGym, ReserveGuard, Meridian, and Agent Economics"/>
+  <img src="./assets/product-evidence-wall.svg" width="100%" alt="Animated workflow from intent and orchestration through tools, approval, evaluation, and measurable outcomes"/>
 </p>
 
 <p align="center">
   <strong>From a founder-built product used by paying businesses to AI agents with control, recovery, telemetry, and measurable outcomes.</strong>
 </p>
+
+### Currently building
+
+- **Autonomous Growth Organization** — six specialized agents coordinating research, strategy, campaigns, approvals, and learning.
+- **Offline Code-Repair Agent** — local Qwen inference with structured patches, execution, validation, and retry recovery.
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,ts,fastapi,django,react,nextjs,postgres,aws,docker,git&theme=dark&perline=10" alt="Core technology stack"/>
